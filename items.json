@@ -1,0 +1,2503 @@
+{
+ "updated": "2026-10-13",
+ "items": [
+  {
+   "sku": "QDR-001",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Peixe colorido — pintura assinada Leonardo Alencar",
+   "artist": "Leonardo Alencar (assinatura visível)",
+   "technique": "Pintura sobre suporte rígido",
+   "condition": "Bom estado visual, com sinais compatíveis com a idade.",
+   "dims": "44 × 32 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "sold",
+   "desc": "Pintura sobre suporte rígido. Dimensões externas da moldura: 44 × 32 cm. Bom estado visual, com sinais compatíveis com a idade.",
+   "images": [
+    "QDR-001-1"
+   ]
+  },
+  {
+   "sku": "QDR-002",
+   "cat": "quadros",
+   "sub": "Relevos e entalhes",
+   "title": "Cena galante rural em tapeçaria",
+   "artist": "Autoria não identificada",
+   "technique": "Tapeçaria decorativa em tecido, provavelmente Jacquard",
+   "condition": "Sinais de idade no papel e na moldura.",
+   "dims": "18 × 16 cm",
+   "price": 290,
+   "mlPrice": 390,
+   "status": "available",
+   "desc": "Cena figurativa tecida, não uma gravura em papel. Tapeçaria decorativa em tecido, provavelmente Jacquard. Dimensões externas da moldura: 18 × 16 cm. Sinais de idade no tecido e na moldura.",
+   "images": [
+    "QDR-002-1",
+    "QDR-002-2"
+   ]
+  },
+  {
+   "sku": "QDR-003",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Retrato masculino em pintura de textura espessa",
+   "artist": "Atribuição a F. Polyceno, a confirmar",
+   "technique": "Pintura de técnica mista",
+   "condition": "Há lasca/perda de camada pictórica, visível nas fotos.",
+   "dims": "24 × 29 cm",
+   "price": 440,
+   "mlPrice": 590,
+   "status": "available",
+   "desc": "Pintura de técnica mista. Dimensões externas da moldura: 24 × 29 cm. Há lasca/perda de camada pictórica, visível nas fotos.",
+   "images": [
+    "QDR-003-1",
+    "QDR-003-2"
+   ]
+  },
+  {
+   "sku": "QDR-004",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Cavalos na fazenda, 1920 — assinado I. Borghese",
+   "artist": "I. Borghese (assinatura e data visíveis)",
+   "technique": "Pintura sobre placa",
+   "condition": "Pátina e sinais de idade; moldura antiga.",
+   "dims": "35 × 27 cm",
+   "price": 1260,
+   "mlPrice": 1690,
+   "status": "available",
+   "desc": "Pintura sobre placa. Dimensões externas da moldura: 35 × 27 cm. Pátina e sinais de idade; moldura antiga.",
+   "images": [
+    "QDR-004-1",
+    "QDR-004-2",
+    "QDR-004-3"
+   ]
+  },
+  {
+   "sku": "QDR-005",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Paisagem do Rio de Janeiro, 1948 — impressão Arydvartes",
+   "artist": "Crédito impresso Arydvartes; autoria ou marca gráfica não identificada",
+   "technique": "Impressão decorativa emoldurada",
+   "condition": "Papel e passe-partout com sinais de idade.",
+   "dims": "35 × 45 cm",
+   "price": 360,
+   "mlPrice": 490,
+   "status": "available",
+   "desc": "Impressão decorativa emoldurada, com crédito Arydvartes. Não foi localizada referência segura que confirme Arydvartes como artista; o nome pode ser marca ou oficina gráfica. Dimensões externas da moldura: 35 × 45 cm. Papel e passe-partout com sinais de idade.",
+   "images": [
+    "QDR-005-1",
+    "QDR-005-2",
+    "QDR-005-3"
+   ]
+  },
+  {
+   "sku": "QDR-006",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Cristo — aquarela religiosa datada de 1961",
+   "artist": "Autoria não identificada",
+   "technique": "Aquarela ou técnica mista sobre papel",
+   "condition": "Papel com manchas e sinais de idade.",
+   "dims": "24 × 28 cm",
+   "price": 210,
+   "mlPrice": 290,
+   "status": "available",
+   "desc": "Aquarela ou técnica mista sobre papel. Dimensões externas da moldura: 24 × 28 cm. Papel com manchas e sinais de idade.",
+   "images": [
+    "QDR-006-1"
+   ]
+  },
+  {
+   "sku": "QDR-007",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Marinha abstrata em pintura de textura espessa",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou técnica mista sobre tela",
+   "condition": "Desgaste e envelhecimento no conjunto.",
+   "dims": "40 × 34 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Óleo ou técnica mista sobre tela. Dimensões externas da moldura: 40 × 34 cm. Desgaste e envelhecimento no conjunto.",
+   "images": [
+    "QDR-007-1",
+    "QDR-007-2",
+    "QDR-007-3",
+    "QDR-007-4"
+   ]
+  },
+  {
+   "sku": "QDR-008",
+   "cat": "quadros",
+   "sub": "Relevos e entalhes",
+   "title": "Figura abstrata, possivelmente cavaleiro",
+   "artist": "Autoria não identificada",
+   "technique": "Técnica mista com relevo sobre tecido",
+   "condition": "Desgaste e perdas de camada visíveis; moldura com sinais de idade.",
+   "dims": "29 × 39 cm",
+   "price": 510,
+   "mlPrice": 690,
+   "status": "available",
+   "desc": "Composição figurativa abstrata, possivelmente um cavaleiro, executada em técnica mista com relevo sobre tecido. Dimensões externas da moldura: 29 × 39 cm. Desgaste e perdas de camada visíveis; autoria não identificada.",
+   "images": [
+    "QDR-008-1",
+    "QDR-008-2",
+    "QDR-008-3"
+   ]
+  },
+  {
+   "sku": "QDR-009",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Papiro egípcio — pesagem da alma",
+   "artist": "Produção decorativa egípcia",
+   "technique": "Pintura ou impressão sobre papiro",
+   "condition": "Bom estado visual; moldura com sinais de uso.",
+   "dims": "39 × 30 cm",
+   "price": 140,
+   "mlPrice": 190,
+   "status": "available",
+   "desc": "Pintura ou impressão sobre papiro. Dimensões externas da moldura: 39 × 30 cm. Bom estado visual; moldura com sinais de uso.",
+   "images": [
+    "QDR-009-1"
+   ]
+  },
+  {
+   "sku": "QDR-010",
+   "cat": "quadros",
+   "sub": "Relevos e entalhes",
+   "title": "Porta colonial — técnica mista em relevo",
+   "artist": "Autoria não identificada",
+   "technique": "Técnica mista com relevo",
+   "condition": "Bom estado visual, com pátina na moldura.",
+   "dims": "26 × 36 cm",
+   "price": 440,
+   "mlPrice": 590,
+   "status": "available",
+   "desc": "Técnica mista com relevo. Dimensões externas da moldura: 26 × 36 cm. Bom estado visual, com pátina na moldura.",
+   "images": [
+    "QDR-010-1",
+    "QDR-010-2"
+   ]
+  },
+  {
+   "sku": "QDR-011",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "São Sebastião do Rio de Janeiro, 1983 — Chiquinho Lima",
+   "artist": "Chiquinho Lima (assinatura e texto manuscrito no verso; sem referência de mercado localizada)",
+   "technique": "Pintura de linguagem popular sobre tecido",
+   "condition": "Bom estado visual.",
+   "dims": "22 × 27 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Pintura de linguagem popular sobre tecido, intitulada no verso “São Sebastião do Rio de Janeiro”, com assinatura Chiquinho Lima e data de agosto de 1983. O verso traz um longo texto manuscrito do autor. Não foi localizada referência de mercado segura para esse nome. Dimensões externas da moldura: 22 × 27 cm.",
+   "images": [
+    "QDR-011-1",
+    "QDR-011-2"
+   ]
+  },
+  {
+   "sku": "QDR-012",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Retrato do Duque de Reichstadt — reprodução antiga",
+   "artist": "Reprodução de retrato histórico",
+   "technique": "Impressão sobre papel",
+   "condition": "Papel com marcas e envelhecimento.",
+   "dims": "20 × 22 cm",
+   "price": 140,
+   "mlPrice": 190,
+   "status": "available",
+   "desc": "Impressão sobre papel. Dimensões externas da moldura: 20 × 22 cm. Papel com marcas e envelhecimento.",
+   "images": [
+    "QDR-012-1"
+   ]
+  },
+  {
+   "sku": "QDR-013",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Portão do 58º Caçadores — impressão Arydvartes",
+   "artist": "Crédito impresso Arydvartes; autoria ou marca gráfica não identificada",
+   "technique": "Impressão decorativa sobre papel",
+   "condition": "Papel e passe-partout com sinais de idade.",
+   "dims": "20,5 × 18,5 cm",
+   "price": 210,
+   "mlPrice": 290,
+   "status": "available",
+   "desc": "Pequena impressão decorativa sobre papel, com crédito Arydvartes. Não foi localizada referência segura que confirme Arydvartes como artista; o nome pode ser marca ou oficina gráfica. Dimensões externas da moldura: 20,5 × 18,5 cm.",
+   "images": [
+    "QDR-013-1",
+    "QDR-013-2"
+   ]
+  },
+  {
+   "sku": "QDR-014",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Nossa Senhora das Mercês, Ouro Preto — impressão Arydvartes",
+   "artist": "Crédito impresso Arydvartes; autoria ou marca gráfica não identificada",
+   "technique": "Impressão decorativa sobre papel",
+   "condition": "Papel com sinais de idade.",
+   "dims": "16 × 18,5 cm",
+   "price": 210,
+   "mlPrice": 290,
+   "status": "available",
+   "desc": "Pequena impressão decorativa sobre papel, com crédito Arydvartes. Não foi localizada referência segura que confirme Arydvartes como artista; o nome pode ser marca ou oficina gráfica. Dimensões externas da moldura: 16 × 18,5 cm.",
+   "images": [
+    "QDR-014-1"
+   ]
+  },
+  {
+   "sku": "QDR-015",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Figura religiosa com vela — Arydvartes",
+   "artist": "Crédito Arydvartes; autoria ou marca gráfica não identificada",
+   "technique": "Impressão ou desenho decorativo sobre papel",
+   "condition": "Papel e passe-partout com sinais de idade.",
+   "dims": "18 × 19 cm",
+   "price": 210,
+   "mlPrice": 290,
+   "status": "available",
+   "desc": "Desenho sobre papel. Dimensões externas da moldura: 18 × 19 cm. Papel e passe-partout com sinais de idade.",
+   "images": [
+    "QDR-015-1"
+   ]
+  },
+  {
+   "sku": "QDR-016",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Rua colonial com arco — Arydvartes",
+   "artist": "Crédito Arydvartes; autoria ou marca gráfica não identificada",
+   "technique": "Impressão ou desenho decorativo sobre papel",
+   "condition": "Papel e passe-partout com sinais de idade.",
+   "dims": "14 × 17 cm",
+   "price": 210,
+   "mlPrice": 290,
+   "status": "available",
+   "desc": "Desenho sobre papel. Dimensões externas da moldura: 14 × 17 cm. Papel e passe-partout com sinais de idade.",
+   "images": [
+    "QDR-016-1"
+   ]
+  },
+  {
+   "sku": "QDR-017",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Mulher com sombrinha — reprodução de Monet",
+   "artist": "Reprodução decorativa de Claude Monet",
+   "technique": "Impressão emoldurada",
+   "condition": "Sinais de idade no papel e no passe-partout.",
+   "dims": "27 × 36 cm",
+   "price": 100,
+   "mlPrice": 140,
+   "status": "available",
+   "desc": "Impressão emoldurada. Dimensões externas da moldura: 27 × 36 cm. Sinais de idade no papel e no passe-partout.",
+   "images": [
+    "QDR-017-1",
+    "QDR-017-2"
+   ]
+  },
+  {
+   "sku": "QDR-018",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Igreja de Auvers — reprodução de Van Gogh",
+   "artist": "Reprodução decorativa de Vincent van Gogh",
+   "technique": "Impressão emoldurada",
+   "condition": "Sinais de idade no papel e no passe-partout.",
+   "dims": "29 × 33 cm",
+   "price": 100,
+   "mlPrice": 140,
+   "status": "available",
+   "desc": "Impressão emoldurada. Dimensões externas da moldura: 29 × 33 cm. Sinais de idade no papel e no passe-partout.",
+   "images": [
+    "QDR-018-1"
+   ]
+  },
+  {
+   "sku": "QDR-019",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Campo de papoulas — reprodução de Monet",
+   "artist": "Reprodução decorativa de Claude Monet",
+   "technique": "Impressão emoldurada",
+   "condition": "Sinais de idade no papel e no passe-partout.",
+   "dims": "39 × 32 cm",
+   "price": 100,
+   "mlPrice": 140,
+   "status": "available",
+   "desc": "Impressão emoldurada. Dimensões externas da moldura: 39 × 32 cm. Sinais de idade no papel e no passe-partout.",
+   "images": [
+    "QDR-019-1",
+    "QDR-019-2"
+   ]
+  },
+  {
+   "sku": "QDR-020",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Pequeno buquê de flores — atribuído a F. Polyceno",
+   "artist": "Atribuído a F. Polyceno; a confirmar",
+   "technique": "Pintura sobre placa",
+   "condition": "Bom estado visual, com sinais na moldura.",
+   "dims": "33 × 36 cm",
+   "price": 440,
+   "mlPrice": 590,
+   "status": "available",
+   "desc": "Pintura sobre placa. Dimensões externas da moldura: 33 × 36 cm. Bom estado visual, com sinais na moldura.",
+   "images": [
+    "QDR-020-1",
+    "QDR-020-2",
+    "QDR-020-3"
+   ]
+  },
+  {
+   "sku": "QDR-021",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Papiro egípcio — faraó em carro de guerra",
+   "artist": "Produção decorativa egípcia",
+   "technique": "Pintura ou impressão sobre papiro",
+   "condition": "Bom estado visual; moldura com sinais de uso.",
+   "dims": "39 × 30 cm",
+   "price": 120,
+   "mlPrice": 160,
+   "status": "available",
+   "desc": "Pintura ou impressão sobre papiro. Dimensões externas da moldura: 39 × 30 cm. Bom estado visual; moldura com sinais de uso.",
+   "images": [
+    "QDR-021-1"
+   ]
+  },
+  {
+   "sku": "QDR-022",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "The Scribe’s Tools — quadro decorativo",
+   "artist": "Autoria não identificada",
+   "technique": "Impressão e colagem emoldurada",
+   "condition": "Sinais de idade no papel e na moldura.",
+   "dims": "33 × 44 cm",
+   "price": 100,
+   "mlPrice": 140,
+   "status": "available",
+   "desc": "Impressão e colagem emoldurada. Dimensões externas da moldura: 33 × 44 cm. Sinais de idade no papel e na moldura.",
+   "images": [
+    "QDR-022-1",
+    "QDR-022-2",
+    "QDR-022-3"
+   ]
+  },
+  {
+   "sku": "QDR-023",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Festa popular em vila brasileira — grande formato",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou técnica mista sobre tela",
+   "condition": "Bom estado visual geral; moldura com sinais de idade.",
+   "dims": "120 × 92 cm",
+   "price": 2610,
+   "mlPrice": 3490,
+   "status": "available",
+   "desc": "Óleo ou técnica mista sobre tela. Dimensões externas da moldura: 120 × 92 cm. Bom estado visual geral; moldura com sinais de idade.",
+   "images": [
+    "QDR-023-1",
+    "QDR-023-2",
+    "QDR-023-3"
+   ]
+  },
+  {
+   "sku": "QDR-024",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Cortejo de figuras populares — pintura panorâmica",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual geral; moldura com sinais de uso.",
+   "dims": "102 × 52 cm",
+   "price": 1860,
+   "mlPrice": 2490,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 102 × 52 cm. Bom estado visual geral; moldura com sinais de uso.",
+   "images": [
+    "QDR-024-1",
+    "QDR-024-2",
+    "QDR-024-3"
+   ]
+  },
+  {
+   "sku": "QDR-025",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Sol na vila — atribuído a Alcides Navajas",
+   "artist": "Atribuído a Alcides Navajas; sem laudo de autenticidade",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "92 × 68 cm",
+   "price": 1860,
+   "mlPrice": 2490,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 92 × 68 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-025-1",
+    "QDR-025-2",
+    "QDR-025-3"
+   ]
+  },
+  {
+   "sku": "QDR-026",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Guerreiro e bicho — Marcello Grassmann, gravura 65/100",
+   "artist": "Marcello Grassmann (assinatura, numeração e etiqueta no verso)",
+   "technique": "Gravura em metal sobre papel, edição 65/100",
+   "condition": "Papel e passe-partout com sinais de idade.",
+   "dims": "75 × 59 cm",
+   "price": 2240,
+   "mlPrice": 2990,
+   "status": "available",
+   "desc": "Gravura em metal de Marcello Grassmann, assinada a lápis no canto inferior direito e numerada 65/100 no canto inferior esquerdo. Etiqueta antiga no verso identifica o título “Guerreiro e bicho” e a mancha de aproximadamente 36,5 × 50 cm. Dimensões externas da moldura: 75 × 59 cm. Papel e passe-partout com sinais de idade.",
+   "images": [
+    "QDR-026-1",
+    "QDR-026-2",
+    "QDR-026-3",
+    "QDR-026-4"
+   ]
+  },
+  {
+   "sku": "QDR-027",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Homem de chapéu — retrato de caráter",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "67 × 52 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 67 × 52 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-027-1",
+    "QDR-027-2",
+    "QDR-027-3",
+    "QDR-027-4",
+    "QDR-027-5",
+    "QDR-027-6"
+   ]
+  },
+  {
+   "sku": "QDR-028",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Cavaleiros na paisagem — atribuído a Hélcio Iório",
+   "artist": "Atribuído a Hélcio Iório; a confirmar",
+   "technique": "Pintura sobre tela",
+   "condition": "Bom estado visual, com sinais de idade na moldura.",
+   "dims": "58 × 46 cm",
+   "price": 960,
+   "mlPrice": 1290,
+   "status": "available",
+   "desc": "Pintura sobre tela. Dimensões externas da moldura: 58 × 46 cm. Bom estado visual, com sinais de idade na moldura.",
+   "images": [
+    "QDR-028-1",
+    "QDR-028-2",
+    "QDR-028-3",
+    "QDR-028-4",
+    "QDR-028-5",
+    "QDR-028-6"
+   ]
+  },
+  {
+   "sku": "QDR-029",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Composição figurativa — litografia numerada 18/38",
+   "artist": "Assinaturas a confirmar",
+   "technique": "Litografia sobre papel, edição 18/38",
+   "condition": "Papel com sinais de idade; emoldurada com vidro.",
+   "dims": "41 × 57 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Litografia sobre papel, edição 18/38. Dimensões externas da moldura: 41 × 57 cm. Papel com sinais de idade; emoldurada com vidro.",
+   "images": [
+    "QDR-029-1",
+    "QDR-029-2",
+    "QDR-029-3",
+    "QDR-029-4"
+   ]
+  },
+  {
+   "sku": "QDR-030",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Igreja do Padre Faria, Ouro Preto, 1985 — Alida de Souza",
+   "artist": "Alida de Souza (assinatura e data visíveis)",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Pintura e moldura com desgaste visível, preservado nas fotos.",
+   "dims": "58 × 46 cm",
+   "price": 960,
+   "mlPrice": 1290,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 58 × 46 cm. Pintura e moldura com desgaste visível, preservado nas fotos.",
+   "images": [
+    "QDR-030-1",
+    "QDR-030-2",
+    "QDR-030-3",
+    "QDR-030-4"
+   ]
+  },
+  {
+   "sku": "QDR-031",
+   "cat": "quadros",
+   "sub": "Relevos e entalhes",
+   "title": "Caiçara no coqueiro — painel entalhado em relevo",
+   "artist": "Autoria não identificada",
+   "technique": "Entalhe e pintura sobre madeira",
+   "condition": "Bom estado visual, com sinais de idade.",
+   "dims": "40 × 65 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Entalhe e pintura sobre madeira. Dimensões externas da moldura: 40 × 65 cm. Bom estado visual, com sinais de idade.",
+   "images": [
+    "QDR-031-1"
+   ]
+  },
+  {
+   "sku": "QDR-032",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Retrato de homem idoso",
+   "artist": "Assinatura a confirmar",
+   "technique": "Pintura sobre placa",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "23 × 18 cm",
+   "price": 510,
+   "mlPrice": 690,
+   "status": "available",
+   "desc": "Pintura sobre placa. Dimensões externas da moldura: 23 × 18 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-032-1",
+    "QDR-032-2",
+    "QDR-032-3",
+    "QDR-032-4",
+    "QDR-032-5"
+   ]
+  },
+  {
+   "sku": "QDR-033",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Paisagem colonial com igreja",
+   "artist": "Assinatura possivelmente Polleynihi; leitura a confirmar",
+   "technique": "Óleo ou acrílica sobre placa",
+   "condition": "Bom estado visual; moldura com pátina.",
+   "dims": "36 × 47 cm",
+   "price": 510,
+   "mlPrice": 690,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre placa. Dimensões externas da moldura: 36 × 47 cm. Bom estado visual; moldura com pátina.",
+   "images": [
+    "QDR-033-1",
+    "QDR-033-2",
+    "QDR-033-3"
+   ]
+  },
+  {
+   "sku": "QDR-034",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Vila histórica em paisagem montanhosa",
+   "artist": "Assinatura e placa a confirmar",
+   "technique": "Óleo ou técnica mista sobre placa",
+   "condition": "Bom estado visual; passe-partout e moldura com sinais de idade.",
+   "dims": "45 × 56 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "available",
+   "desc": "Óleo ou técnica mista sobre placa. Dimensões externas da moldura: 45 × 56 cm. Bom estado visual; passe-partout e moldura com sinais de idade.",
+   "images": [
+    "QDR-034-1",
+    "QDR-034-2",
+    "QDR-034-3",
+    "QDR-034-4",
+    "QDR-034-5",
+    "QDR-034-6"
+   ]
+  },
+  {
+   "sku": "QDR-035",
+   "cat": "quadros",
+   "sub": "Relevos e entalhes",
+   "title": "Casario colonial — painel entalhado atribuído a Serlito Castro",
+   "artist": "Atribuído a Serlito Castro; a confirmar",
+   "technique": "Entalhe e pintura sobre madeira",
+   "condition": "Bom estado visual, com pátina.",
+   "dims": "35 × 70 cm",
+   "price": 960,
+   "mlPrice": 1290,
+   "status": "available",
+   "desc": "Entalhe e pintura sobre madeira. Dimensões externas da moldura: 35 × 70 cm. Bom estado visual, com pátina.",
+   "images": [
+    "QDR-035-1",
+    "QDR-035-2",
+    "QDR-035-3"
+   ]
+  },
+  {
+   "sku": "QDR-036",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Farol em paisagem costeira",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "44 × 54 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 44 × 54 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-036-1",
+    "QDR-036-2",
+    "QDR-036-3",
+    "QDR-036-4"
+   ]
+  },
+  {
+   "sku": "QDR-037",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Jangadas na praia, 1994 — Leonardo Alencar",
+   "artist": "Leonardo Alencar (assinatura e data visíveis)",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de uso.",
+   "dims": "61 × 50 cm",
+   "price": 1110,
+   "mlPrice": 1490,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 61 × 50 cm. Bom estado visual; moldura com sinais de uso.",
+   "images": [
+    "QDR-037-1",
+    "QDR-037-2",
+    "QDR-037-3"
+   ]
+  },
+  {
+   "sku": "QDR-038",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Conchas I — gravura assinada Luise Weiss, 1980",
+   "artist": "Luise Weiss (assinatura e data visíveis)",
+   "technique": "Gravura sobre papel",
+   "condition": "Bom estado visual; vidro e moldura com sinais de uso.",
+   "dims": "44 × 52 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "available",
+   "desc": "Gravura sobre papel. Dimensões externas da moldura: 44 × 52 cm. Bom estado visual; vidro e moldura com sinais de uso.",
+   "images": [
+    "QDR-038-1",
+    "QDR-038-2",
+    "QDR-038-3",
+    "QDR-038-4",
+    "QDR-038-5"
+   ]
+  },
+  {
+   "sku": "QDR-039",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Conchas II — gravura assinada Luise Weiss, 1980",
+   "artist": "Luise Weiss (assinatura e data visíveis)",
+   "technique": "Gravura sobre papel",
+   "condition": "Bom estado visual; vidro e moldura com sinais de uso.",
+   "dims": "44 × 52 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "available",
+   "desc": "Gravura sobre papel. Dimensões externas da moldura: 44 × 52 cm. Bom estado visual; vidro e moldura com sinais de uso.",
+   "images": [
+    "QDR-039-1",
+    "QDR-039-2"
+   ]
+  },
+  {
+   "sku": "QDR-040",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Natureza-morta com moedor, flores e livros",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "75 × 50 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 75 × 50 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-040-1",
+    "QDR-040-2",
+    "QDR-040-3",
+    "QDR-040-4",
+    "QDR-040-5",
+    "QDR-040-6"
+   ]
+  },
+  {
+   "sku": "QDR-041",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Dois galos ornamentais — pintura sobre tecido",
+   "artist": "Assinatura pouco legível, possivelmente “Prinza”; autoria a confirmar",
+   "technique": "Pintura sobre tecido/tela; estética popular caribenha ou haitiana a confirmar",
+   "condition": "Bom estado visual; moldura com sinais de uso.",
+   "dims": "77 × 55,5 cm",
+   "price": 890,
+   "mlPrice": 1190,
+   "status": "sold",
+   "desc": "Pintura colorida de dois galos sobre tecido/tela, com assinatura pouco legível. A temática e a linguagem visual lembram arte popular caribenha ou haitiana, mas a origem não está comprovada. A técnica também não deve ser anunciada como batique sem exame presencial: visualmente parece tinta aplicada sobre o tecido. Dimensões externas da moldura: 77 × 55,5 cm.",
+   "images": [
+    "QDR-041-1",
+    "QDR-041-2",
+    "QDR-041-3",
+    "QDR-041-4"
+   ]
+  },
+  {
+   "sku": "QDR-042",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Jangadas, 1986 — Vera Pieroni",
+   "artist": "Vera Pieroni (assinatura e data visíveis)",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "60 × 40 cm",
+   "price": 1110,
+   "mlPrice": 1490,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 60 × 40 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-042-1",
+    "QDR-042-2",
+    "QDR-042-3"
+   ]
+  },
+  {
+   "sku": "QDR-043",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Enigma da Incerteza — litografia 6/100 assinada Yang",
+   "artist": "Yang (assinatura e numeração visíveis)",
+   "technique": "Litografia sobre papel, edição 6/100",
+   "condition": "Papel com sinais de idade; moldura sem vidro aparente.",
+   "dims": "53 × 70 cm",
+   "price": 960,
+   "mlPrice": 1290,
+   "status": "available",
+   "desc": "Litografia sobre papel, edição 6/100. Dimensões externas da moldura: 53 × 70 cm. Papel com sinais de idade; moldura sem vidro aparente.",
+   "images": [
+    "QDR-043-1",
+    "QDR-043-2",
+    "QDR-043-3",
+    "QDR-043-4"
+   ]
+  },
+  {
+   "sku": "QDR-044",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Retrato de homem barbado",
+   "artist": "Assinatura possivelmente F. S. Myecku; leitura a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "65 × 54 cm",
+   "price": 590,
+   "mlPrice": 790,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 65 × 54 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-044-1",
+    "QDR-044-2",
+    "QDR-044-3",
+    "QDR-044-4"
+   ]
+  },
+  {
+   "sku": "QDR-045",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Rosas em vaso",
+   "artist": "Assinatura possivelmente W. Niederauer; a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Sinais de idade na pintura e na moldura.",
+   "dims": "51 × 72 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 51 × 72 cm. Sinais de idade na pintura e na moldura.",
+   "images": [
+    "QDR-045-1",
+    "QDR-045-2",
+    "QDR-045-3",
+    "QDR-045-4",
+    "QDR-045-5",
+    "QDR-045-6"
+   ]
+  },
+  {
+   "sku": "QDR-046",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Cena rural com figuras e boi — assinado F. Lucco",
+   "artist": "F. Lucco (assinatura visível)",
+   "technique": "Desenho ou técnica mista sobre papel",
+   "condition": "Papel com manchas e sinais de idade.",
+   "dims": "86 × 66 cm",
+   "price": 660,
+   "mlPrice": 890,
+   "status": "available",
+   "desc": "Desenho ou técnica mista sobre papel. Dimensões externas da moldura: 86 × 66 cm. Papel com manchas e sinais de idade.",
+   "images": [
+    "QDR-046-1",
+    "QDR-046-2",
+    "QDR-046-3",
+    "QDR-046-4",
+    "QDR-046-5",
+    "QDR-046-6",
+    "QDR-046-7",
+    "QDR-046-8"
+   ]
+  },
+  {
+   "sku": "QDR-047",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Rua colonial de Ouro Preto, 1985 — Alida de Souza",
+   "artist": "Alida de Souza (assinatura e data visíveis)",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Pintura e moldura com sinais de idade.",
+   "dims": "58 × 46 cm",
+   "price": 960,
+   "mlPrice": 1290,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 58 × 46 cm. Pintura e moldura com sinais de idade.",
+   "images": [
+    "QDR-047-1",
+    "QDR-047-2",
+    "QDR-047-3",
+    "QDR-047-4",
+    "QDR-047-5"
+   ]
+  },
+  {
+   "sku": "QDR-048",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Paisagem com lago — aquarela",
+   "artist": "Assinatura a confirmar",
+   "technique": "Aquarela sobre papel",
+   "condition": "Papel com sinais de idade; vidro com reflexos.",
+   "dims": "68 × 51 cm",
+   "price": 510,
+   "mlPrice": 690,
+   "status": "available",
+   "desc": "Aquarela sobre papel. Dimensões externas da moldura: 68 × 51 cm. Papel com sinais de idade; vidro com reflexos.",
+   "images": [
+    "QDR-048-1",
+    "QDR-048-2",
+    "QDR-048-3",
+    "QDR-048-4"
+   ]
+  },
+  {
+   "sku": "QDR-049",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Mulher negra com turbante — atribuído a F. Polyceno",
+   "artist": "Atribuído a F. Polyceno; a confirmar",
+   "technique": "Pintura sobre papel ou placa",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "44 × 50 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Pintura sobre papel ou placa. Dimensões externas da moldura: 44 × 50 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-049-1",
+    "QDR-049-2",
+    "QDR-049-3",
+    "QDR-049-4",
+    "QDR-049-5"
+   ]
+  },
+  {
+   "sku": "QDR-050",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Figura feminina religiosa",
+   "artist": "Autoria não identificada",
+   "technique": "Pintura sobre papel ou placa",
+   "condition": "Sinais de idade no conjunto.",
+   "dims": "33 × 40 cm",
+   "price": 360,
+   "mlPrice": 490,
+   "status": "available",
+   "desc": "Pintura sobre papel ou placa. Dimensões externas da moldura: 33 × 40 cm. Sinais de idade no conjunto.",
+   "images": [
+    "QDR-050-1"
+   ]
+  },
+  {
+   "sku": "QDR-051",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Casas rurais em paisagem",
+   "artist": "Assinatura a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de uso.",
+   "dims": "46 × 36 cm",
+   "price": 440,
+   "mlPrice": 590,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 46 × 36 cm. Bom estado visual; moldura com sinais de uso.",
+   "images": [
+    "QDR-051-1"
+   ]
+  },
+  {
+   "sku": "QDR-052",
+   "cat": "quadros",
+   "sub": "Reproduções",
+   "title": "Pequeno retrato de perfil",
+   "artist": "Autoria não identificada",
+   "technique": "Pintura ou impressão emoldurada",
+   "condition": "Sinais de idade no papel e na moldura.",
+   "dims": "33 × 35 cm",
+   "price": 290,
+   "mlPrice": 390,
+   "status": "available",
+   "desc": "Pintura ou impressão emoldurada. Dimensões externas da moldura: 33 × 35 cm. Sinais de idade no papel e na moldura.",
+   "images": [
+    "QDR-052-1"
+   ]
+  },
+  {
+   "sku": "QDR-053",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Praia com barco — assinado H. Iório",
+   "artist": "Assinatura H. Iório visível; autoria a confirmar",
+   "technique": "Óleo ou acrílica sobre tela",
+   "condition": "Bom estado visual; moldura com sinais de idade.",
+   "dims": "43 × 32 cm",
+   "price": 740,
+   "mlPrice": 990,
+   "status": "available",
+   "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 43 × 32 cm. Bom estado visual; moldura com sinais de idade.",
+   "images": [
+    "QDR-053-1"
+   ]
+  },
+  {
+   "sku": "QDR-054",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Estudo de cabeça masculina",
+   "artist": "Assinatura a confirmar",
+   "technique": "Desenho sobre papel",
+   "condition": "Papel e passe-partout com manchas de idade.",
+   "dims": "27 × 33 cm",
+   "price": 290,
+   "mlPrice": 390,
+   "status": "available",
+   "desc": "Desenho sobre papel. Dimensões externas da moldura: 27 × 33 cm. Papel e passe-partout com manchas de idade.",
+   "images": [
+    "QDR-054-1"
+   ]
+  },
+  {
+   "sku": "QDR-055",
+   "cat": "quadros",
+   "sub": "Pinturas",
+   "title": "Natureza-morta com vasos — atribuído a F. Polyceno",
+   "artist": "Atribuído a F. Polyceno; a confirmar",
+   "technique": "Pintura de técnica mista",
+   "condition": "Bom estado visual; moldura com sinais de uso.",
+   "dims": "23 × 27 cm",
+   "price": 360,
+   "mlPrice": 490,
+   "status": "available",
+   "desc": "Pintura de técnica mista. Dimensões externas da moldura: 23 × 27 cm. Bom estado visual; moldura com sinais de uso.",
+   "images": [
+    "QDR-055-1",
+    "QDR-055-2"
+   ]
+  },
+  {
+   "sku": "QDR-056",
+   "cat": "quadros",
+   "sub": "Gravuras e papel",
+   "title": "Figura religiosa — atribuída a Oswaldo Teixeira",
+   "artist": "Atribuída a Oswaldo Teixeira; inscrição visível, sem laudo de autenticidade",
+   "technique": "Desenho a tinta sobre papel",
+   "condition": "Papel com vincos, ondulações e sinais de idade; emoldurado com vidro.",
+   "dims": "30 × 44 cm",
+   "price": 1860,
+   "mlPrice": 2490,
+   "status": "available",
+   "desc": "Figura religiosa feminina em desenho a tinta sobre papel, com inscrição “Oswaldo Teixeira” no alto à esquerda. Atribuição sem laudo de autenticidade. Dimensões externas da moldura: 30 × 44 cm. Papel com vincos, ondulações e sinais de idade; emoldurado com vidro.",
+   "images": [
+    "QDR-056-1"
+   ]
+  },
+  {
+   "sku": "LIV-001",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Artes Plásticas Brasil 1989: Seu Mercado, Seus Leilões",
+   "artist": "Julio Louzada",
+   "technique": "Inter/arte/brasil · 1989 · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 130,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-001-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/artes-plasticas-brasil-1989--julio-louzada--mercado-e-leiloes/up/MLBU3996708473"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-002",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Leonilson: São Tantas as Verdades",
+   "artist": "Lisette Lagnado",
+   "technique": "Dba · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 200,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-002-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/leonilson-sao-tantas-as-verdades--lisette-lagnado--dba/up/MLBU3996706767"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-003",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Profile of New Brazilian Art",
+   "artist": "Pietro Maria Bardi",
+   "technique": "Livraria Kosmos Editora · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 130,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Inglês.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-003-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/profile-of-new-brazilian-art--pietro-maria-bardi--livraria-kosmos-editora/up/MLBU3996707065"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-004",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Eu Vi o Mundo",
+   "artist": "Cícero Dias",
+   "technique": "Cosac Naify",
+   "condition": "Usado",
+   "dims": "",
+   "price": 390,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Retirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-004-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/eu-vi-o-mundo--cicero-dias--cosac-naify/up/MLBU4009767638"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-005",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Renée Lefèvre",
+   "artist": "Enock Sacramento",
+   "technique": "Livro",
+   "condition": "Usado",
+   "dims": "",
+   "price": 130,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Retirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-005-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/renee-lefevre--enock-sacramento/up/MLBU3996706785"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-006",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Reflex: Vik Muniz de A a Z",
+   "artist": "Vik Muniz",
+   "technique": "Cosac Naify · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 80,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-006-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/reflex-vik-muniz-de-a-a-z--paulo-mendes-de-almeida--cosac-naify/up/MLBU4009767902"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-007",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Thomas Farkas",
+   "artist": "Thomas Farkas",
+   "technique": "IPSIS · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 75,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-007-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/thomas-farkas--fotografia--editora-ipsis/up/MLBU4009770852"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-008",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Daiches Scotch Whisky",
+   "artist": "David Daiches",
+   "technique": "Andre Deutsch",
+   "condition": "Usado",
+   "dims": "",
+   "price": 120,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Inglês.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-008-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/daiches-scotch-whisky--andre-deutsch/up/MLBU3996706809"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-009",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Getúlio — 1930–1945 (volume 2)",
+   "artist": "Lira Neto",
+   "technique": "Companhia das Letras · 2013 · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 60,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\n632 páginas.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-009-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/livro-getulio--19301945-lira-neto-1a-edicao-do-governo-provisorio-a-ditadura-do-estado-novo-2013-portugues-editora-companhia-das-letras/up/MLBU3996707043"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-010",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "The Andy Warhol Diaries",
+   "artist": "Organização: Pat Hackett",
+   "technique": "Warner Books · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 130,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Inglês.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-010-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/the-andy-warhol-diaries--edited-by-pat-hackett--warner-books/up/MLBU3996707031"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-011",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Copacabana Palace",
+   "artist": "Vários autores",
+   "technique": "Dba · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 120,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-011-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/copacabana-palace--livro-historico--dba/up/MLBU3996706769"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-012",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Diários da Presidência 1995–1996 (volume 1)",
+   "artist": "Fernando Henrique Cardoso",
+   "technique": "Companhia das Letras · 2015 · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 100,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\n936 páginas.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-012-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/livro-diarios-da-presidencia-1995--1996-volume-1-de-fernando-henrique-cardoso-edicao-1-portugues-2015-editora-companhia-das-letras/up/MLBU3996708777"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-013",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "De Anita ao Museu",
+   "artist": "Paulo Mendes de Almeida",
+   "technique": "PERSPECTIVA · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 80,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-013-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/de-anita-ao-museu--paulo-mendes-de-almeida/up/MLBU4009767662"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-014",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Leda Catunda",
+   "artist": "Tadeu Chiarelli",
+   "technique": "Cosac Naify · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 150,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-014-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/leda-catunda--tadeu-chiarelli--cosac-naify/up/MLBU4009770636"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-015",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Diários da Presidência 1997–1998 (volume 2)",
+   "artist": "Fernando Henrique Cardoso",
+   "technique": "Editora Schwarcz S.A · 2016 · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 100,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\n872 páginas.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-015-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/diarios-da-presidencia-19971998-volume-2-companhia-das-letras/up/MLBU4009770844"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-016",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Aurélio Becherini",
+   "artist": "Aurélio Becherini",
+   "technique": "Cosac Naify",
+   "condition": "Usado",
+   "dims": "",
+   "price": 100,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Retirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-016-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/aurelio-becherini--cosac-naify/up/MLBU4009767636"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-017",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Gravura — Arte Brasileira do Século XX",
+   "artist": "Vários autores",
+   "technique": "Cosac Naify · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 120,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-017-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/gravura--arte-brasileira-do-seculo-xx--cosac-naify/up/MLBU3996708745"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-018",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Getúlio — 1882–1930 (volume 1)",
+   "artist": "Lira Neto",
+   "technique": "Editora Schwarcz S.A · 2012 · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 60,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\n664 páginas.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-018-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/getulio-1-18821930-companhia-das-letras/up/MLBU4009767912"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-019",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "MAM 60",
+   "artist": "Museu de Arte Moderna",
+   "technique": "Mam · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 90,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-019-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/mam-60--museu-de-arte-moderna--catalogo/up/MLBU4009770822"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-020",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Dicionário das Artes Plásticas no Brasil",
+   "artist": "Roberto Pontual",
+   "technique": "Civilização Brasileira · Capa dura",
+   "condition": "Usado",
+   "dims": "",
+   "price": 200,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-020-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/dicionario-das-artes-plasticas-no-brasil--roberto-pontual/up/MLBU4009793162"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-021",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "O Brasil de Ferrez",
+   "artist": "Marc Ferrez",
+   "technique": "IMS · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 130,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-021-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/ferrez--marc-ferrez--fotografia--ims/up/MLBU4009767664"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-022",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Hommage à Henri Matisse",
+   "artist": "XX Siècle",
+   "technique": "XX Siècle · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 160,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Francês.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-022-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/hommage-a-henri-matisse--numero-special-de-xx-siecle/up/MLBU3996706807"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-023",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Diários da Presidência 1999–2000 (volume 3)",
+   "artist": "Fernando Henrique Cardoso",
+   "technique": "Companhia das Letras · 2017 · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 100,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\n856 páginas.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-023-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/livro-diarios-da-presidencia-19992000-volume-3-de-cardoso-fernando-henrique-editora-companhia-das-letras-capa-mole-2017/up/MLBU4009770624"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-024",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "B. J. Duarte",
+   "artist": "B. J. Duarte",
+   "technique": "Cosac & Naify",
+   "condition": "Usado",
+   "dims": "",
+   "price": 110,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Retirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-024-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/b-j-duarte--cosac-naify/up/MLBU3996706771"
+    }
+   ]
+  },
+  {
+   "sku": "LIV-025",
+   "cat": "livros",
+   "sub": "Livros",
+   "title": "Getúlio — 1945–1954 (volume 3)",
+   "artist": "Lira Neto",
+   "technique": "Companhia das Letras · Capa mole",
+   "condition": "Usado",
+   "dims": "",
+   "price": 60,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Idioma: Português.\nRetirada em Pinheiros, São Paulo, a combinar.",
+   "images": [
+    "LIV-025-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Mercado Livre",
+     "url": "https://www.mercadolivre.com.br/livro-getulio-3-19451954-de-lira-neto-com-capa-mole-em-portugues-2014-por-editora-companhia-das-letras/up/MLBU4009767874"
+    }
+   ]
+  },
+  {
+   "sku": "MOV-001",
+   "cat": "moveis",
+   "sub": "Móveis",
+   "title": "Cristaleira antiga de madeira maciça — 2 módulos",
+   "artist": "",
+   "technique": "Madeira maciça",
+   "condition": "Usado — em boas condições",
+   "dims": "Inferior: 78 × 201 × 51 cm; superior: 140 × 166 × 33,5 cm (A × L × P)",
+   "price": 3000,
+   "mlPrice": 3000,
+   "status": "available",
+   "desc": "Cristaleira / armário antigo em dois módulos.\nRetirada em Pinheiros, São Paulo, a combinar.\nVenda do móvel; objetos na foto não acompanham.",
+   "images": [
+    "MOV-001-1"
+   ],
+   "links": [
+    {
+     "label": "Ver no Facebook Marketplace",
+     "url": "https://www.facebook.com/marketplace/item/1177533701091297/"
+    }
+   ]
+  },
+  {
+   "sku": "OBJ-001",
+   "cat": "objetos",
+   "sub": "Madeira",
+   "title": "Pilão de madeira entalhado — grande",
+   "artist": "",
+   "technique": "Madeira entalhada à mão, com mão de pilão",
+   "condition": "Peça decorativa, sinais de uso compatíveis com a idade.",
+   "dims": "100 × 35 cm",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Pilão alto de madeira escura com entalhes florais em toda a base e o corpo. Acompanha a mão de pilão.",
+   "images": [
+    "OBJ-001-1"
+   ]
+  },
+  {
+   "sku": "OBJ-002",
+   "cat": "objetos",
+   "sub": "Madeira",
+   "title": "Pilão de madeira torneada — grande",
+   "artist": "",
+   "technique": "Madeira escura torneada, com mão de pilão",
+   "condition": "Bom estado, sinais de uso.",
+   "dims": "80 × 30 cm",
+   "price": 120,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Pilão de madeira escura em formato de taça alta, torneado, com mão de pilão.",
+   "images": [
+    "OBJ-002-1"
+   ]
+  },
+  {
+   "sku": "OBJ-003",
+   "cat": "objetos",
+   "sub": "Madeira",
+   "title": "Gamela de madeira",
+   "artist": "",
+   "technique": "Madeira",
+   "condition": "",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "Gamela antiga de madeira. Foto em breve.",
+   "images": []
+  },
+  {
+   "sku": "OBJ-010",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "Vaso de cristal lapidado com pé",
+   "artist": "",
+   "technique": "Cristal lapidado",
+   "condition": "Bom estado.",
+   "dims": "19 × 10 cm",
+   "price": 80,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Vaso alto de cristal com lapidação em estrelas e pé recortado.",
+   "images": [
+    "OBJ-010-1",
+    "OBJ-010-2"
+   ]
+  },
+  {
+   "sku": "OBJ-011",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "Balde de gelo em cristal com alça de metal",
+   "artist": "",
+   "technique": "Cristal lapidado, aro e alça em metal",
+   "condition": "Bom estado.",
+   "dims": "25 × 20 cm",
+   "price": 40,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Balde de gelo em cristal com lapidação em folhas, aro e alça de metal prateado.",
+   "images": [
+    "OBJ-011-1",
+    "OBJ-011-2"
+   ]
+  },
+  {
+   "sku": "OBJ-012",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "Vaso bojudo de cristal lapidado",
+   "artist": "",
+   "technique": "Cristal com lapidação em losangos",
+   "condition": "Bom estado.",
+   "dims": "15 × 13 cm",
+   "price": 50,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Vaso baixo e bojudo, lapidação em losangos.",
+   "images": [
+    "OBJ-012-1"
+   ]
+  },
+  {
+   "sku": "OBJ-013",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "Taças flûte de cristal",
+   "artist": "",
+   "technique": "Cristal fino",
+   "condition": "Bom estado.",
+   "dims": "Altura aprox. 24 cm",
+   "price": 150,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Conjunto de taças flûte de cristal, haste longa. Quantidade a confirmar no contato.",
+   "images": [
+    "OBJ-013-1",
+    "OBJ-013-2"
+   ]
+  },
+  {
+   "sku": "OBJ-014",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "Copos e taças de cristal — lote",
+   "artist": "",
+   "technique": "Cristal lapidado e gravado",
+   "condition": "Peças avulsas e conjuntos.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Copos e taças de cristal com gravação em folhas e chevrons, taças de licor e taças com degradê azul. Vendidos juntos ou separados; consulte o que está disponível.",
+   "images": [
+    "OBJ-014-1",
+    "OBJ-014-2",
+    "OBJ-014-3",
+    "OBJ-014-4",
+    "OBJ-014-5"
+   ]
+  },
+  {
+   "sku": "OBJ-020",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Jogo de chá em porcelana, borda vinho e dourado",
+   "artist": "",
+   "technique": "Porcelana com faixa vinho, filete dourado e lustre perolado",
+   "condition": "Bom estado.",
+   "dims": "",
+   "price": 380,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Jogo completo: bule, leiteira, açucareiro e peças de apoio. Combina com os pratos e as xícaras da mesma linha.",
+   "images": [
+    "OBJ-020-1",
+    "OBJ-020-2",
+    "OBJ-020-3"
+   ]
+  },
+  {
+   "sku": "OBJ-021",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "12 pratos de sobremesa, borda vinho e dourado",
+   "artist": "",
+   "technique": "Porcelana com faixa vinho e dourado",
+   "condition": "Bom estado.",
+   "dims": "18,5 cm de diâmetro",
+   "price": 200,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Conjunto de 12 pratos de sobremesa da mesma linha do jogo de chá.",
+   "images": [
+    "OBJ-021-1"
+   ]
+  },
+  {
+   "sku": "OBJ-022",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Xícaras com pires, borda vinho e dourado",
+   "artist": "",
+   "technique": "Porcelana com faixa vinho e dourado",
+   "condition": "Bom estado.",
+   "dims": "Grande 9,5 × 5 cm",
+   "price": 120,
+   "priceNote": "8 pequenas R$ 120 · 8 grandes R$ 180",
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Dois conjuntos de 8 xícaras com pires: chá (grandes) e café (pequenas).",
+   "images": [
+    "OBJ-022-1"
+   ]
+  },
+  {
+   "sku": "OBJ-023",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "6 xícaras azul cobalto com pires",
+   "artist": "",
+   "technique": "Porcelana azul cobalto com decoração floral dourada",
+   "condition": "Bom estado.",
+   "dims": "",
+   "price": 100,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Conjunto de 6 xícaras de café em azul cobalto com pires decorados.",
+   "images": [
+    "OBJ-023-1"
+   ]
+  },
+  {
+   "sku": "OBJ-024",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Vaso de cerâmica rústica",
+   "artist": "",
+   "technique": "Cerâmica com esmalte preto escorrido",
+   "condition": "Bom estado.",
+   "dims": "15 × 13 cm",
+   "price": 40,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Vaso bojudo de boca pequena, barro claro com esmalte preto.",
+   "images": [
+    "OBJ-024-1"
+   ]
+  },
+  {
+   "sku": "OBJ-025",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Coleção de 24 mini canecas",
+   "artist": "",
+   "technique": "Porcelana e cerâmica",
+   "condition": "Peças decorativas variadas.",
+   "dims": "Cerca de 5 cm cada",
+   "price": 200,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Mini canecas e chopes de lembrança, de bares, festas e cidades. Vendidas como coleção.",
+   "images": [
+    "OBJ-025-1",
+    "OBJ-025-2",
+    "OBJ-025-3",
+    "OBJ-025-4"
+   ]
+  },
+  {
+   "sku": "OBJ-026",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Porcelana branca com flores — lote",
+   "artist": "",
+   "technique": "Porcelana branca com decoração floral",
+   "condition": "Peças avulsas.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Bule, leiteira, vasinhos, saleiros e pires em porcelana branca com flores delicadas. Consulte as peças.",
+   "images": [
+    "OBJ-026-1"
+   ]
+  },
+  {
+   "sku": "OBJ-027",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Prato azul e branco com relevo floral",
+   "artist": "",
+   "technique": "Faiança decorada em azul",
+   "condition": "Sinais de uso.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Prato decorativo com borda recortada e flor central em azul.",
+   "images": [
+    "OBJ-027-1"
+   ]
+  },
+  {
+   "sku": "OBJ-028",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Prato decorativo Café Nice",
+   "artist": "",
+   "technique": "Porcelana estampada",
+   "condition": "Sinais de uso.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Prato de parede com a marca Café Nice em azul.",
+   "images": [
+    "OBJ-028-1"
+   ]
+  },
+  {
+   "sku": "OBJ-029",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Prato comemorativo de Natal, 1982",
+   "artist": "",
+   "technique": "Porcelana estampada em azul",
+   "condition": "Bom estado.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Prato de parede com igreja e votos de Feliz Natal em várias línguas, datado de 1982.",
+   "images": [
+    "OBJ-029-1"
+   ]
+  },
+  {
+   "sku": "OBJ-030",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Prato decorativo Pão de Açúcar",
+   "artist": "",
+   "technique": "Porcelana estampada",
+   "condition": "Bom estado.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Prato de lembrança do Rio de Janeiro com o Pão de Açúcar.",
+   "images": [
+    "OBJ-030-1"
+   ]
+  },
+  {
+   "sku": "OBJ-031",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Prato infantil decorado",
+   "artist": "",
+   "technique": "Porcelana com decalque",
+   "condition": "Sinais de uso.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Prato com cena de criança e pássaros, borda com pequenos motivos.",
+   "images": [
+    "OBJ-031-1"
+   ]
+  },
+  {
+   "sku": "OBJ-040",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "Vaso de estanho",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": 100,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Vaso de boca larga em estanho.",
+   "images": [
+    "OBJ-040-1"
+   ]
+  },
+  {
+   "sku": "OBJ-041",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "Bule de estanho com tampa",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": 150,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Bule com tampa, bico e alça trabalhada.",
+   "images": [
+    "OBJ-041-1"
+   ]
+  },
+  {
+   "sku": "OBJ-042",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "Jarra de estanho",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": 100,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Jarra bojuda com alça.",
+   "images": [
+    "OBJ-042-1"
+   ]
+  },
+  {
+   "sku": "OBJ-043",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "Jarra alta de estanho",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": 70,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Jarra alta tipo decanter, com tampa e alça longa.",
+   "images": [
+    "OBJ-043-1"
+   ]
+  },
+  {
+   "sku": "OBJ-044",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "6 taças de estanho",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Conjunto de 6 taças com pé.",
+   "images": [
+    "OBJ-044-1"
+   ]
+  },
+  {
+   "sku": "OBJ-045",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "6 copinhos de estanho",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": 75,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Conjunto de 6 copinhos.",
+   "images": [
+    "OBJ-045-1"
+   ]
+  },
+  {
+   "sku": "OBJ-046",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "Açucareiro de estanho",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Açucareiro com tampa e duas alças.",
+   "images": [
+    "OBJ-046-1"
+   ]
+  },
+  {
+   "sku": "OBJ-047",
+   "cat": "objetos",
+   "sub": "Estanho",
+   "title": "Garrafa de estanho com frisos",
+   "artist": "",
+   "technique": "Estanho",
+   "condition": "Pátina natural.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Garrafa alta com frisos e gargalo estreito.",
+   "images": [
+    "OBJ-047-1",
+    "OBJ-047-2"
+   ]
+  },
+  {
+   "sku": "OBJ-050",
+   "cat": "objetos",
+   "sub": "Metais prateados",
+   "title": "Bandeja oval lisa",
+   "artist": "",
+   "technique": "Metal com banho de prata",
+   "condition": "Precisa de limpeza.",
+   "dims": "",
+   "price": 60,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Bandeja oval de borda lisa.",
+   "images": [
+    "OBJ-050-1"
+   ]
+  },
+  {
+   "sku": "OBJ-051",
+   "cat": "objetos",
+   "sub": "Metais prateados",
+   "title": "Bandeja com alças trabalhadas",
+   "artist": "",
+   "technique": "Metal com banho de prata",
+   "condition": "Precisa de limpeza.",
+   "dims": "Aprox. 50 × 35 cm",
+   "price": 60,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Bandeja retangular de borda recortada e alças em volutas.",
+   "images": [
+    "OBJ-051-1"
+   ]
+  },
+  {
+   "sku": "OBJ-052",
+   "cat": "objetos",
+   "sub": "Metais prateados",
+   "title": "Bandeja grande com borda godronada",
+   "artist": "",
+   "technique": "Metal com banho de prata",
+   "condition": "Precisa de limpeza.",
+   "dims": "Aprox. 50 × 35 cm",
+   "price": 60,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Bandeja retangular com borda godronada e alças vazadas.",
+   "images": [
+    "OBJ-052-1",
+    "OBJ-052-2"
+   ]
+  },
+  {
+   "sku": "OBJ-060",
+   "cat": "objetos",
+   "sub": "Câmeras e ópticos",
+   "title": "Câmera Minolta 16",
+   "artist": "",
+   "technique": "Câmera subminiatura para filme 16 mm",
+   "condition": "Não testada.",
+   "dims": "12 × 8 × 2 cm",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Câmera de bolso dos anos 1960, de formato subminiatura.",
+   "images": [
+    "OBJ-060-1",
+    "OBJ-060-2",
+    "OBJ-060-3",
+    "OBJ-060-4"
+   ]
+  },
+  {
+   "sku": "OBJ-061",
+   "cat": "objetos",
+   "sub": "Câmeras e ópticos",
+   "title": "Câmera Olympus Zoom 2000",
+   "artist": "",
+   "technique": "Compacta 35 mm com zoom",
+   "condition": "Não testada.",
+   "dims": "15 × 8 × 3 cm",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Câmera compacta 35 mm, com alça.",
+   "images": [
+    "OBJ-061-1",
+    "OBJ-061-2",
+    "OBJ-061-3",
+    "OBJ-061-4"
+   ]
+  },
+  {
+   "sku": "OBJ-062",
+   "cat": "objetos",
+   "sub": "Câmeras e ópticos",
+   "title": "Câmera Yashica MG-Motor",
+   "artist": "",
+   "technique": "Compacta 35 mm",
+   "condition": "Não testada.",
+   "dims": "15 × 8 × 3 cm",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Câmera compacta 35 mm com bolsa original.",
+   "images": [
+    "OBJ-062-1",
+    "OBJ-062-2",
+    "OBJ-062-3",
+    "OBJ-062-4"
+   ]
+  },
+  {
+   "sku": "OBJ-063",
+   "cat": "objetos",
+   "sub": "Câmeras e ópticos",
+   "title": "Câmera dobrável antiga com estojo de couro",
+   "artist": "",
+   "technique": "Câmera de fole",
+   "condition": "Peça de coleção, não testada.",
+   "dims": "15 × 10 cm",
+   "price": 50,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Câmera dobrável de fole com estojo de couro marrom.",
+   "images": [
+    "OBJ-063-1",
+    "OBJ-063-2",
+    "OBJ-063-3",
+    "OBJ-063-4"
+   ]
+  },
+  {
+   "sku": "OBJ-064",
+   "cat": "objetos",
+   "sub": "Câmeras e ópticos",
+   "title": "Binóculo de teatro Sportiere",
+   "artist": "",
+   "technique": "Binóculo dobrável",
+   "condition": "Bom estado.",
+   "dims": "12 × 8 cm",
+   "price": 70,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Binóculo de teatro dobrável, compacto.",
+   "images": [
+    "OBJ-064-1",
+    "OBJ-064-2"
+   ]
+  },
+  {
+   "sku": "OBJ-070",
+   "cat": "objetos",
+   "sub": "Diversos",
+   "title": "Miniaturas de metal — coleção",
+   "artist": "",
+   "technique": "Metal fundido",
+   "condition": "Peças decorativas.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Miniaturas de metal: máquina de costura, locomotiva, telefone, relógio e outras. Vendidas juntas ou separadas.",
+   "images": [
+    "OBJ-070-1"
+   ]
+  },
+  {
+   "sku": "OBJ-071",
+   "cat": "objetos",
+   "sub": "Diversos",
+   "title": "Material de desenho técnico",
+   "artist": "",
+   "technique": "Estojo de compassos e lápis",
+   "condition": "Usado.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Estojo de compassos Trident, estojo Trinor e lápis de desenho Turquoise e Faber-Castell.",
+   "images": [
+    "OBJ-071-1",
+    "OBJ-071-2",
+    "OBJ-071-3"
+   ]
+  },
+  {
+   "sku": "OBJ-072",
+   "cat": "objetos",
+   "sub": "Diversos",
+   "title": "Despertador de viagem, medalhas e relógio",
+   "artist": "",
+   "technique": "Peças avulsas",
+   "condition": "Não testados.",
+   "dims": "",
+   "price": null,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "available",
+   "desc": "Despertador de viagem dobrável, medalhas comemorativas em estojo e um relógio de pulso feminino.",
+   "images": [
+    "OBJ-072-1"
+   ]
+  },
+  {
+   "sku": "OBJ-080",
+   "cat": "objetos",
+   "sub": "Metais prateados",
+   "title": "Chaleira de metal prateado",
+   "artist": "",
+   "technique": "Metal com banho de prata",
+   "condition": "Ótimo estado.",
+   "dims": "14 × 20 cm",
+   "price": 120,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "",
+   "images": [
+    "OBJ-080-1"
+   ]
+  },
+  {
+   "sku": "OBJ-081",
+   "cat": "objetos",
+   "sub": "Metais prateados",
+   "title": "Manteigueira de metal prateado",
+   "artist": "",
+   "technique": "Metal com banho de prata",
+   "condition": "Ótimo estado.",
+   "dims": "16 × 10 cm",
+   "price": 80,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "",
+   "images": [
+    "OBJ-081-1",
+    "OBJ-081-2"
+   ]
+  },
+  {
+   "sku": "OBJ-082",
+   "cat": "objetos",
+   "sub": "Metais prateados",
+   "title": "Leiteira de metal prateado",
+   "artist": "",
+   "technique": "Metal com banho de prata",
+   "condition": "",
+   "dims": "12 × 20 cm",
+   "price": 100,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "",
+   "images": [
+    "OBJ-082-1"
+   ]
+  },
+  {
+   "sku": "OBJ-083",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Conjunto de saquê com motivo de pagode",
+   "artist": "",
+   "technique": "Porcelana japonesa",
+   "condition": "",
+   "dims": "",
+   "price": 200,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "Garrafa e 6 cumbucas.",
+   "images": [
+    "OBJ-083-1",
+    "OBJ-083-2"
+   ]
+  },
+  {
+   "sku": "OBJ-084",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Vaso oriental de porcelana",
+   "artist": "",
+   "technique": "Porcelana com lustre",
+   "condition": "",
+   "dims": "25 × 9 cm",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "",
+   "images": [
+    "OBJ-084-1"
+   ]
+  },
+  {
+   "sku": "OBJ-085",
+   "cat": "objetos",
+   "sub": "Porcelanas",
+   "title": "Pote oriental com tampa",
+   "artist": "",
+   "technique": "Porcelana com lustre",
+   "condition": "",
+   "dims": "25 cm",
+   "price": 130,
+   "priceNote": null,
+   "mlPrice": null,
+   "status": "hidden",
+   "desc": "",
+   "images": [
+    "OBJ-085-1",
+    "OBJ-085-2"
+   ]
+  }
+ ]
+}

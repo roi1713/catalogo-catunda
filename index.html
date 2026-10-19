@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catálogo Catunda</title>
+<meta name="description" content="Quadros, objetos, livros e móveis da coleção da família Catunda. Venda direta, retirada em Pinheiros, São Paulo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+[hidden]{display:none!important}
+img{max-width:100%}
+/* Layout: inventário de acervo — cabeçalho curto, barra de filtros fixa, grade de peças com etiqueta de museu, ficha em painel */
+:root{
+  --bg:#eceee9; --surface:#f7f8f5; --plate:#e2e5df; --ink:#1d2622; --muted:#5b6762; --line:#c7cec8;
+  --accent:#2c5a4d; --accent-ink:#f4f7f5; --brass:#8a6a25; --sold:#9a3b2f;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --radius:3px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121715; --surface:#1a201d; --plate:#222a26; --ink:#e4e9e5; --muted:#9aa7a1; --line:#33403a;
+  --accent:#86b8a5; --accent-ink:#0f1513; --brass:#d3ac5e; --sold:#e08a7c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121715; --surface:#1a201d; --plate:#222a26; --ink:#e4e9e5; --muted:#9aa7a1; --line:#33403a;
+  --accent:#86b8a5; --accent-ink:#0f1513; --brass:#d3ac5e; --sold:#e08a7c; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0}
+.wrap{max-width:1280px;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* Cabeçalho */
+.head{padding-block:clamp(28px,6vw,64px) 24px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(20px,5vw,64px);align-items:end;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(44px,8vw,96px);line-height:.92;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h1 em{font-style:italic;color:var(--accent)}
+.lede{max-width:46ch;color:var(--muted);margin:16px 0 0;font-size:16px}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;display:grid;gap:10px;min-width:0}
+.contact h2{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0;font-weight:500}
+.contact p{margin:0}
+.phone{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.phone strong{font-family:var(--mono);font-size:17px;font-weight:500;user-select:all}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius);border:1px solid var(--line);background:transparent;padding:8px 12px;cursor:pointer;text-decoration:none;color:var(--ink);font-size:14px}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.btn.primary:hover{filter:brightness(1.08)}
+.small{font-size:13px;color:var(--muted)}
+
+/* Barra de filtros */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;padding-block:12px}
+.bar .wrap>*{min-width:0}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;min-width:0;flex:1 1 auto}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;font-size:14px;white-space:nowrap}
+.chip .n{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:4px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip[aria-pressed="true"] .n{color:inherit;opacity:.7}
+.subchips .chip{font-size:13px;padding:4px 10px;background:transparent}
+.tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.search{flex:1 1 180px;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:8px 10px}
+select{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:8px}
+.toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer}
+.count{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:auto}
+
+/* Grade */
+main{padding-block:24px 64px}
+.group-title{font-family:var(--display);font-weight:500;font-size:clamp(26px,3.4vw,36px);margin:28px 0 14px;display:flex;align-items:baseline;gap:12px}
+.group-title:first-child{margin-top:4px}
+.group-title span{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.08em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,232px),1fr));gap:28px 20px}
+.card{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr;gap:12px;cursor:pointer;background:none;border:0;padding:0;text-align:left;color:inherit;min-width:0}
+.ph{position:relative;aspect-ratio:1/1;background:var(--plate);border-radius:var(--radius);overflow:hidden;max-width:100%}
+.ph img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .35s ease}
+.ph.cover img{object-fit:cover}
+.card:hover .ph img{transform:scale(1.025)}
+.ph .noimg{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.stamp{position:absolute;left:10px;top:10px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:var(--sold);color:var(--surface);padding:3px 7px;border-radius:2px}
+.label{display:grid;grid-template-columns:minmax(0,1fr);gap:3px;border-top:1px solid var(--ink);padding-top:8px;min-width:0}
+.meta{display:flex;justify-content:space-between;gap:8px;font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.03em}
+.meta .dims{text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.title{font-family:var(--display);font-size:19px;line-height:1.18;font-weight:500;margin:2px 0 0;text-wrap:balance}
+.artist{font-size:13px;color:var(--muted);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;margin-top:4px;font-variant-numeric:tabular-nums}
+.price b{font-weight:600;font-size:16px}
+.price .alt{font-size:12px;color:var(--muted)}
+.price .ask{font-size:14px;color:var(--brass);font-weight:500}
+.card.is-sold .title,.card.is-sold .price{opacity:.55}
+.empty{padding:48px 0;color:var(--muted);text-align:center}
+
+/* Como comprar */
+.how{border-top:1px solid var(--line);padding-block:40px 56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:24px}
+.how h2{font-family:var(--display);font-weight:500;font-size:32px;margin:0}
+.how ol{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:20px;counter-reset:s}
+.how li{counter-increment:s;display:grid;gap:6px;min-width:0}
+.how li::before{content:counter(s);font-family:var(--mono);font-size:12px;color:var(--accent);border:1px solid var(--accent);width:24px;height:24px;border-radius:50%;display:grid;place-items:center}
+.how .note{grid-column:1/-1;font-size:13px;color:var(--muted);margin:0}
+
+/* Ficha */
+dialog{border:0;padding:0;background:var(--surface);color:var(--ink);width:min(1100px,100vw - 24px);max-height:calc(100dvh - 24px);border-radius:6px;overflow:hidden}
+dialog::backdrop{background:rgb(10 14 12 / .62)}
+.sheet{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);max-height:calc(100dvh - 24px)}
+.gal{background:var(--plate);display:grid;grid-template-rows:minmax(0,1fr) auto;min-height:0;min-width:0}
+.gal .main{min-height:0;display:grid;place-items:center;padding:16px}
+.gal .main img{max-width:100%;max-height:calc(100dvh - 160px);object-fit:contain;display:block}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding:0 16px 14px}
+.thumbs button{flex:0 0 auto;width:62px;height:62px;padding:0;border:1px solid var(--line);border-radius:2px;background:var(--surface);cursor:pointer;overflow:hidden}
+.thumbs button[aria-current="true"]{border:2px solid var(--ink)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.info{padding:28px clamp(18px,3vw,32px) 24px;overflow-y:auto;display:grid;gap:16px;align-content:start;min-width:0}
+.info .code{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.info h2{font-family:var(--display);font-weight:500;font-size:clamp(26px,3vw,34px);line-height:1.08;margin:0;text-wrap:balance}
+.info .by{color:var(--muted);margin:-8px 0 0}
+.facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 16px;margin:0;font-size:14px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:12px}
+.facts dt{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+.facts dd{margin:0}
+.info .desc{margin:0;white-space:pre-line;max-width:60ch}
+.info .bigprice{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;font-variant-numeric:tabular-nums}
+.info .bigprice b{font-size:26px;font-weight:600}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.close{position:absolute;right:10px;top:10px;z-index:2;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);cursor:pointer;font-size:20px;line-height:1}
+.navbtns{display:flex;gap:8px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:var(--radius);font-size:14px;z-index:50}
+
+@media (max-width:800px){
+  .head{grid-template-columns:1fr}
+  .sheet{grid-template-columns:1fr;overflow-y:auto}
+  .gal .main img{max-height:56dvh}
+  .info{overflow:visible}
+  .how{grid-template-columns:1fr}
+  .count{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="wrap head">
+  <div>
+    <p class="kicker">Venda direta · Pinheiros, São Paulo</p>
+    <h1>Catálogo <em>Catunda</em></h1>
+    <p class="lede">Quadros, objetos, livros e um móvel da coleção da família. Cada peça tem um código; é só mandar o código no WhatsApp para combinar.</p>
+  </div>
+  <aside class="contact" aria-label="Contato">
+    <h2>Contato e retirada</h2>
+    <div class="phone"><strong id="phone">(11) 97212-7766</strong>
+      <button class="btn" id="copyPhone" type="button">Copiar número</button>
+      <a class="btn primary" id="waTop" target="_blank" rel="noopener" href="https://wa.me/5511972127766">WhatsApp</a>
+    </div>
+    <p class="small">Rodrigo · retirada em Pinheiros, São Paulo, com horário combinado. Disponibilidade sujeita a confirmação.</p>
+  </aside>
+</header>
+
+<nav class="bar" aria-label="Filtros">
+  <div class="wrap">
+    <div class="row"><div class="chips" id="cats" role="group" aria-label="Categoria"></div></div>
+    <div class="row subchips" id="subsRow" hidden><div class="chips" id="subs" role="group" aria-label="Tipo"></div></div>
+    <div class="tools">
+      <input class="search" id="q" type="search" placeholder="Buscar por título, autor ou código" aria-label="Buscar">
+      <select id="sort" aria-label="Ordenar">
+        <option value="code">Ordenar por código</option>
+        <option value="asc">Menor preço</option>
+        <option value="desc">Maior preço</option>
+      </select>
+      <label class="toggle"><input type="checkbox" id="showSold"> Mostrar vendidos</label>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap" id="list" aria-live="polite"></main>
+
+<section class="wrap how" id="como-comprar">
+  <h2>Como comprar</h2>
+  <ol>
+    <li><strong>Anote o código</strong><span class="small">Ele aparece em cada peça, como QDR-004 ou OBJ-020.</span></li>
+    <li><strong>Chame no WhatsApp</strong><span class="small">(11) 97212-7766. O botão de cada peça já leva o código na mensagem.</span></li>
+    <li><strong>Combine pagamento e retirada</strong><span class="small">Pix ou transferência. Retirada em Pinheiros, São Paulo.</span></li>
+  </ol>
+  <p class="note">Atribuições marcadas como "a confirmar" ou "sem laudo" não têm certificado de autenticidade. As fotos mostram o estado real de cada peça. Atualizado em <span id="updated"></span>.</p>
+</section>
+
+<dialog id="dlg" aria-labelledby="dTitle">
+  <button class="close" id="dClose" type="button" aria-label="Fechar">×</button>
+  <div class="sheet">
+    <div class="gal"><div class="main"><img id="dImg" alt=""></div><div class="thumbs" id="dThumbs"></div></div>
+    <div class="info">
+      <div class="code"><span id="dCode"></span><span id="dSub"></span></div>
+      <h2 id="dTitle"></h2>
+      <p class="by" id="dBy"></p>
+      <div class="bigprice" id="dPrice"></div>
+      <dl class="facts" id="dFacts"></dl>
+      <p class="desc" id="dDesc"></p>
+      <div class="actions">
+        <a class="btn primary" id="dWa" target="_blank" rel="noopener">Tenho interesse</a>
+        <button class="btn" id="dCopy" type="button">Copiar código</button>
+        <span id="dLinks"></span>
+      </div>
+      <div class="navbtns"><button class="btn" id="dPrev" type="button">← Anterior</button><button class="btn" id="dNext" type="button">Próxima →</button></div>
+    </div>
+  </div>
+</dialog>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(()=>{
+const PHONE='5511972127766';
+const CATS=[['todos','Tudo'],['quadros','Quadros'],['objetos','Objetos'],['livros','Livros'],['moveis','Móveis']];
+const CAT_NAME=Object.fromEntries(CATS);
+const SUB_ORDER={quadros:['Pinturas','Gravuras e papel','Relevos e entalhes','Reproduções'],objetos:['Madeira','Cristais','Porcelanas','Estanho','Metais prateados','Câmeras e ópticos','Diversos']};
+const $=s=>document.querySelector(s);
+const brl=n=>'R$ '+Number(n).toLocaleString('pt-BR');
+const norm=s=>(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+let ALL=[], view=[], state={cat:'todos',sub:null,q:'',sort:'code',sold:false};
+try{const s=JSON.parse(localStorage.getItem('catunda')||'{}'); if(s.cat) state.cat=s.cat; if(s.sort) state.sort=s.sort;}catch(e){}
+const save=()=>{try{localStorage.setItem('catunda',JSON.stringify({cat:state.cat,sort:state.sort}))}catch(e){}};
+const toast=m=>{const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,1800)};
+async function copy(text,msg){try{await navigator.clipboard.writeText(text);toast(msg)}catch(e){toast('Copie: '+text)}}
+const wa=it=>'https://wa.me/'+PHONE+'?text='+encodeURIComponent(it?`Olá, Rodrigo! Tenho interesse no item ${it.sku} — ${it.title}. Ainda está disponível?`:'Olá, Rodrigo! Vi o Catálogo Catunda.');
+const visible=it=>it.status!=='hidden' && (state.sold || it.status!=='sold');
+
+function priceHTML(it,big){
+  if(it.status==='sold') return '<span class="ask">Vendido</span>';
+  let h = it.price!=null ? `<b>${brl(it.price)}</b>` : '<span class="ask">Preço a combinar</span>';
+  if(it.priceNote) h+=`<span class="alt">${it.priceNote}</span>`;
+  else if(it.mlPrice && it.price && it.mlPrice>it.price) h+=`<span class="alt">${brl(it.mlPrice)} no Mercado Livre</span>`;
+  return h;
+}
+function cardHTML(it){
+  const img=it.images[0];
+  return `<button class="card${it.status==='sold'?' is-sold':''}" type="button" data-sku="${it.sku}">
+    <div class="ph">${img?`<img loading="lazy" decoding="async" src="img/t/${img}.jpg" alt="${it.title.replace(/"/g,'&quot;')}">`:'<span class="noimg">foto em breve</span>'}${it.status==='sold'?'<span class="stamp">Vendido</span>':''}</div>
+    <div class="label">
+      <div class="meta"><span>${it.sku}</span><span class="dims">${it.dims||it.sub}</span></div>
+      <div class="title">${it.title}</div>
+      ${it.artist?`<div class="artist">${it.artist}</div>`:''}
+      <div class="price">${priceHTML(it)}</div>
+    </div></button>`;
+}
+function renderChips(){
+  const pool=ALL.filter(visible);
+  $('#cats').innerHTML=CATS.map(([k,l])=>{const n=k==='todos'?pool.length:pool.filter(i=>i.cat===k).length;
+    return `<button class="chip" type="button" data-cat="${k}" aria-pressed="${state.cat===k}">${l}<span class="n">${n}</span></button>`}).join('');
+  const subs=SUB_ORDER[state.cat];
+  $('#subsRow').hidden=!subs;
+  if(subs){$('#subs').innerHTML=[null,...subs].map(s=>{const n=pool.filter(i=>i.cat===state.cat&&(!s||i.sub===s)).length; if(s&&!n) return '';
+    return `<button class="chip" type="button" data-sub="${s||''}" aria-pressed="${(state.sub||'')===(s||'')}">${s||'Todos'}<span class="n">${n}</span></button>`}).join('')}
+}
+function render(){
+  const q=norm(state.q);
+  view=ALL.filter(visible).filter(i=>(state.cat==='todos'||i.cat===state.cat)&&(!state.sub||i.sub===state.sub))
+    .filter(i=>!q||norm([i.sku,i.title,i.artist,i.technique,i.sub,i.desc].join(' ')).includes(q));
+  const p=i=>i.price==null?(state.sort==='asc'?1e9:-1):i.price;
+  if(state.sort==='asc') view.sort((a,b)=>p(a)-p(b)); else if(state.sort==='desc') view.sort((a,b)=>p(b)-p(a));
+  $('#count').textContent=view.length+(view.length===1?' peça':' peças');
+  if(!view.length){$('#list').innerHTML='<p class="empty">Nada encontrado. Tente outra palavra ou limpe os filtros.</p>';return}
+  if(state.cat==='todos' && state.sort==='code' && !q){
+    $('#list').innerHTML=CATS.slice(1).map(([k,l])=>{const g=view.filter(i=>i.cat===k); if(!g.length) return '';
+      return `<h2 class="group-title">${l}<span>${g.length}</span></h2><div class="grid">${g.map(cardHTML).join('')}</div>`}).join('');
+  } else $('#list').innerHTML=`<div class="grid">${view.map(cardHTML).join('')}</div>`;
+}
+function refresh(){renderChips();render();save()}
+
+// Ficha
+let cur=null, curImg=0;
+function setImg(k){curImg=k;const it=cur;const n=it.images[k];$('#dImg').src=n?`img/g/${n}.jpg`:'';$('#dImg').alt=it.title;
+  [...$('#dThumbs').children].forEach((b,i)=>b.setAttribute('aria-current',i===k))}
+function open(sku,push=true){
+  const it=ALL.find(i=>i.sku===sku); if(!it||it.status==='hidden') return; cur=it;
+  $('#dCode').textContent=it.sku; $('#dSub').textContent=(CAT_NAME[it.cat]||'')+' · '+it.sub;
+  $('#dTitle').textContent=it.title; $('#dBy').textContent=it.artist||''; $('#dBy').hidden=!it.artist;
+  $('#dPrice').innerHTML=priceHTML(it,true);
+  const f=[['Medidas',it.dims],['Técnica',it.cat==='livros'?'':it.technique],['Edição',it.cat==='livros'?it.technique:''],['Estado',it.condition]].filter(x=>x[1]);
+  $('#dFacts').innerHTML=f.map(([a,b])=>`<dt>${a}</dt><dd>${b}</dd>`).join(''); $('#dFacts').hidden=!f.length;
+  $('#dDesc').textContent=it.desc||'';
+  $('#dWa').href=wa(it); $('#dWa').hidden=it.status==='sold';
+  $('#dLinks').innerHTML=(it.links||[]).map(l=>`<a class="btn" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('');
+  $('#dThumbs').innerHTML=it.images.length>1?it.images.map((n,i)=>`<button type="button" aria-label="Foto ${i+1}"><img loading="lazy" src="img/g/${n}.jpg" alt=""></button>`).join(''):'';
+  [...$('#dThumbs').children].forEach((b,i)=>b.onclick=()=>setImg(i));
+  setImg(0);
+  if(!$('#dlg').open) $('#dlg').showModal();
+  if(push) try{history.replaceState(null,'','#'+it.sku)}catch(e){}
+}
+function step(d){const i=view.findIndex(x=>x.sku===cur.sku); const n=view[(i+d+view.length)%view.length]; if(n) open(n.sku)}
+$('#dClose').onclick=()=>$('#dlg').close();
+$('#dlg').addEventListener('close',()=>{try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}});
+$('#dlg').addEventListener('click',e=>{if(e.target===$('#dlg')) $('#dlg').close()});
+$('#dPrev').onclick=()=>step(-1); $('#dNext').onclick=()=>step(1);
+$('#dCopy').onclick=()=>copy(cur.sku,'Código '+cur.sku+' copiado');
+document.addEventListener('keydown',e=>{if(!$('#dlg').open) return;
+  if(e.key==='ArrowRight'&&cur.images.length>1&&e.shiftKey===false) setImg((curImg+1)%cur.images.length);
+  if(e.key==='ArrowLeft'&&cur.images.length>1) setImg((curImg-1+cur.images.length)%cur.images.length);});
+$('#dImg').onclick=()=>{if(cur.images.length>1) setImg((curImg+1)%cur.images.length)};
+
+// Eventos
+$('#cats').onclick=e=>{const b=e.target.closest('[data-cat]'); if(!b) return; state.cat=b.dataset.cat; state.sub=null; refresh()};
+$('#subs').onclick=e=>{const b=e.target.closest('[data-sub]'); if(!b) return; state.sub=b.dataset.sub||null; refresh()};
+$('#q').oninput=e=>{state.q=e.target.value; render()};
+$('#sort').onchange=e=>{state.sort=e.target.value; refresh()};
+$('#showSold').onchange=e=>{state.sold=e.target.checked; refresh()};
+$('#list').onclick=e=>{const c=e.target.closest('.card'); if(c) open(c.dataset.sku)};
+$('#copyPhone').onclick=()=>copy('(11) 97212-7766','Número copiado');
+$('#waTop').href=wa(null);
+
+fetch('items.json').then(r=>r.json()).then(d=>{
+  ALL=d.items; $('#updated').textContent=new Date(d.updated+'T12:00').toLocaleDateString('pt-BR');
+  $('#sort').value=state.sort; refresh();
+  const h=location.hash.slice(1); if(h) open(h,false);
+}).catch(()=>{$('#list').innerHTML='<p class="empty">Não foi possível carregar o catálogo. Recarregue a página.</p>'});
+})();
+</script>
+</body>
+</html>
