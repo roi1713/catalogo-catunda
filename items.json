@@ -1660,6 +1660,18 @@
    ]
   },
   {
+   "sku": "MOV-002",
+   "cat": "moveis",
+   "sub": "Móveis",
+   "title": "Aparador de cozinha",
+   "price": 200,
+   "status": "available",
+   "desc": "Aparador com três portas. Retirada em Pinheiros, São Paulo, a combinar.\nVenda do móvel; objetos na foto não acompanham.",
+   "images": [
+    "MOV-002-1"
+   ]
+  },
+  {
    "sku": "OBJ-001",
    "cat": "objetos",
    "sub": "Madeira",
@@ -2494,6 +2506,103 @@
    "images": [
     "OBJ-085-1",
     "OBJ-085-2"
+   ]
+  },
+  {
+   "sku": "OBJ-086",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "5 copos de cristal — lote",
+   "technique": "Cristal",
+   "dims": "15 × 7 cm",
+   "price": 100,
+   "status": "available",
+   "desc": "Lote com 5 copos de cristal. Medidas aproximadas: 15 × 7 cm. Preço do lote completo.",
+   "images": [
+    "OBJ-086-1"
+   ]
+  },
+  {
+   "sku": "OBJ-087",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "5 copos de cristal — lote",
+   "technique": "Cristal",
+   "dims": "14 × 8 cm",
+   "price": 100,
+   "status": "available",
+   "desc": "Lote com 5 copos de cristal. Medidas aproximadas: 14 × 8 cm. Preço do lote completo.",
+   "images": [
+    "OBJ-087-1"
+   ]
+  },
+  {
+   "sku": "OBJ-088",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "8 taças de cristal — lote",
+   "technique": "Cristal",
+   "dims": "13,5 × 7 cm",
+   "price": 120,
+   "status": "available",
+   "desc": "Lote com 8 taças de cristal. Medidas aproximadas: 13,5 × 7 cm. Preço do lote completo.",
+   "images": [
+    "OBJ-088-1"
+   ]
+  },
+  {
+   "sku": "OBJ-089",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "4 taças de cristal — lote",
+   "technique": "Cristal",
+   "dims": "16 × 8 cm",
+   "price": 120,
+   "status": "available",
+   "desc": "Lote com 4 taças de cristal. Medidas aproximadas: 16 × 8 cm. Preço do lote completo.",
+   "images": [
+    "OBJ-089-1"
+   ]
+  },
+  {
+   "sku": "OBJ-090",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "3 taças de cristal — lote",
+   "technique": "Cristal",
+   "dims": "12 × 6 cm",
+   "price": 75,
+   "status": "available",
+   "desc": "Lote com 3 taças de cristal. Medidas aproximadas: 12 × 6 cm. Preço do lote completo.",
+   "images": [
+    "OBJ-090-1"
+   ]
+  },
+  {
+   "sku": "OBJ-091",
+   "cat": "objetos",
+   "sub": "Cristais",
+   "title": "5 mini taças de cristal — lote",
+   "technique": "Cristal",
+   "dims": "12 × 6 cm",
+   "price": 100,
+   "status": "available",
+   "desc": "Lote com 5 mini taças de cristal. Medidas aproximadas: 12 × 6 cm. Preço do lote completo.",
+   "images": [
+    "OBJ-091-1"
+   ]
+  },
+  {
+   "sku": "OBJ-092",
+   "cat": "objetos",
+   "sub": "Diversos",
+   "title": "Chaleira de ferro",
+   "technique": "Ferro",
+   "price": 30,
+   "status": "available",
+   "desc": "Chaleira (bule) antiga de ferro.",
+   "images": [
+    "OBJ-092-1"
    ]
   }
  ]
