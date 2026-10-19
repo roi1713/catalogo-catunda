@@ -12,7 +12,7 @@
    "dims": "44 × 32 cm",
    "price": 660,
    "mlPrice": 890,
-   "status": "sold",
+   "status": "hidden",
    "desc": "Pintura sobre suporte rígido. Dimensões externas da moldura: 44 × 32 cm. Bom estado visual, com sinais compatíveis com a idade.",
    "images": [
     "QDR-001-1"
@@ -425,7 +425,7 @@
    "dims": "102 × 52 cm",
    "price": 1860,
    "mlPrice": 2490,
-   "status": "sold",
+   "status": "hidden",
    "desc": "Óleo ou acrílica sobre tela. Dimensões externas da moldura: 102 × 52 cm. Bom estado visual geral; moldura com sinais de uso.",
    "images": [
     "QDR-024-1",
@@ -765,7 +765,7 @@
    "dims": "77 × 55,5 cm",
    "price": 890,
    "mlPrice": 1190,
-   "status": "sold",
+   "status": "hidden",
    "desc": "Pintura colorida de dois galos sobre tecido/tela, com assinatura pouco legível. A temática e a linguagem visual lembram arte popular caribenha ou haitiana, mas a origem não está comprovada. A técnica também não deve ser anunciada como batique sem exame presencial: visualmente parece tinta aplicada sobre o tecido. Dimensões externas da moldura: 77 × 55,5 cm.",
    "images": [
     "QDR-041-1",
