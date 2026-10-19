@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-19",
  "items": [
   {
    "sku": "QDR-001",
@@ -1772,15 +1772,12 @@
    "cat": "objetos",
    "sub": "Cristais",
    "title": "Taças flûte de cristal",
-   "artist": "",
    "technique": "Cristal fino",
    "condition": "Bom estado.",
    "dims": "Altura aprox. 24 cm",
    "price": 150,
-   "priceNote": null,
-   "mlPrice": null,
    "status": "available",
-   "desc": "Conjunto de taças flûte de cristal, haste longa. Quantidade a confirmar no contato.",
+   "desc": "Conjunto de 6 taças flûte de cristal, haste longa. Quantidade a confirmar no contato.",
    "images": [
     "OBJ-013-1",
     "OBJ-013-2"
@@ -1798,7 +1795,7 @@
    "price": null,
    "priceNote": null,
    "mlPrice": null,
-   "status": "available",
+   "status": "hidden",
    "desc": "Copos e taças de cristal com gravação em folhas e chevrons, taças de licor e taças com degradê azul. Vendidos juntos ou separados; consulte o que está disponível.",
    "images": [
     "OBJ-014-1",
@@ -1933,7 +1930,7 @@
    "price": null,
    "priceNote": null,
    "mlPrice": null,
-   "status": "available",
+   "status": "hidden",
    "desc": "Bule, leiteira, vasinhos, saleiros e pires em porcelana branca com flores delicadas. Consulte as peças.",
    "images": [
     "OBJ-026-1"
@@ -2344,7 +2341,7 @@
    "price": null,
    "priceNote": null,
    "mlPrice": null,
-   "status": "available",
+   "status": "hidden",
    "desc": "Miniaturas de metal: máquina de costura, locomotiva, telefone, relógio e outras. Vendidas juntas ou separadas.",
    "images": [
     "OBJ-070-1"
@@ -2362,7 +2359,7 @@
    "price": null,
    "priceNote": null,
    "mlPrice": null,
-   "status": "available",
+   "status": "hidden",
    "desc": "Estojo de compassos Trident, estojo Trinor e lápis de desenho Turquoise e Faber-Castell.",
    "images": [
     "OBJ-071-1",
@@ -2382,7 +2379,7 @@
    "price": null,
    "priceNote": null,
    "mlPrice": null,
-   "status": "available",
+   "status": "hidden",
    "desc": "Despertador de viagem dobrável, medalhas comemorativas em estojo e um relógio de pulso feminino.",
    "images": [
     "OBJ-072-1"
@@ -2400,7 +2397,7 @@
    "price": 120,
    "priceNote": null,
    "mlPrice": null,
-   "status": "hidden",
+   "status": "available",
    "desc": "",
    "images": [
     "OBJ-080-1"
@@ -2418,7 +2415,7 @@
    "price": 80,
    "priceNote": null,
    "mlPrice": null,
-   "status": "hidden",
+   "status": "available",
    "desc": "",
    "images": [
     "OBJ-081-1",
@@ -2437,7 +2434,7 @@
    "price": 100,
    "priceNote": null,
    "mlPrice": null,
-   "status": "hidden",
+   "status": "available",
    "desc": "",
    "images": [
     "OBJ-082-1"
@@ -2474,7 +2471,7 @@
    "price": 130,
    "priceNote": null,
    "mlPrice": null,
-   "status": "hidden",
+   "status": "available",
    "desc": "",
    "images": [
     "OBJ-084-1"
@@ -2492,7 +2489,7 @@
    "price": 130,
    "priceNote": null,
    "mlPrice": null,
-   "status": "hidden",
+   "status": "available",
    "desc": "",
    "images": [
     "OBJ-085-1",
