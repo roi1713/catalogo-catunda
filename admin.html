@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Painel Catunda</title>
+<style>
+[hidden]{display:none!important}
+:root{
+  --bg:#eceee9; --surface:#f7f8f5; --plate:#e2e5df; --ink:#1d2622; --muted:#5b6762; --line:#c7cec8;
+  --accent:#2c5a4d; --accent-ink:#f4f7f5; --brass:#8a6a25; --danger:#9a3b2f; --mark:#fff6d6;
+  --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#121715; --surface:#1a201d; --plate:#222a26; --ink:#e4e9e5; --muted:#9aa7a1; --line:#33403a;
+  --accent:#86b8a5; --accent-ink:#0f1513; --brass:#d3ac5e; --danger:#e08a7c; --mark:#3a3418; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:90px}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:16px}
+a{color:var(--accent)}
+button,input,select,textarea{font:inherit;color:inherit}
+input,select,textarea{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:4px;padding:8px 10px;min-width:0}
+textarea{resize:vertical;min-height:90px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:4px;padding:8px 14px;cursor:pointer;text-decoration:none;color:var(--ink);white-space:nowrap}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.btn.danger{color:var(--danger);border-color:var(--danger)}
+.btn:disabled{opacity:.5;cursor:default}
+.small{font-size:13px;color:var(--muted)}
+header.top{border-bottom:1px solid var(--line);background:var(--surface)}
+header.top .wrap{display:flex;gap:12px;align-items:center;justify-content:space-between;padding-block:12px;flex-wrap:wrap}
+header.top h1{font-size:18px;margin:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px;margin-block:18px}
+.card h2{margin-top:0;font-size:17px}
+.card ol{padding-left:20px;margin:8px 0}
+.card li{margin-block:4px}
+code{font-family:var(--mono);font-size:13px;background:var(--plate);padding:1px 5px;border-radius:3px}
+.err{color:var(--danger);margin:8px 0 0}
+
+.tools{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;gap:8px;padding-block:14px;position:sticky;top:0;background:var(--bg);z-index:5}
+@media(max-width:640px){.tools{grid-template-columns:1fr 1fr}.tools input{grid-column:1/-1}}
+.row{display:grid;grid-template-columns:56px minmax(0,1fr) 120px 130px auto;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-bottom:8px}
+.row.changed{background:var(--mark);border-color:var(--brass)}
+.row .th{width:56px;height:56px;object-fit:cover;background:var(--plate);border-radius:3px;display:block}
+.row .code{font:12px var(--mono);color:var(--muted)}
+.row .t{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row .st-hidden .t{opacity:.55}
+.pricebox{display:flex;align-items:center;gap:4px}
+.pricebox span{color:var(--muted);font-size:13px}
+@media(max-width:640px){
+  .row{grid-template-columns:56px minmax(0,1fr);}
+  .row .pricebox,.row select,.row .btn{grid-column:2/-1}
+}
+
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:20}
+.bar .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:0}
+.bar .msg{flex:1 1 200px}
+
+dialog{border:0;padding:0;background:var(--surface);color:var(--ink);width:min(720px,100vw - 20px);max-height:calc(100dvh - 20px);border-radius:8px;overflow:hidden}
+dialog::backdrop{background:rgb(10 14 12 / .62)}
+dialog form{display:flex;flex-direction:column;max-height:calc(100dvh - 20px)}
+.dh{padding:14px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:8px}
+.dh h2{margin:0;font-size:17px}
+.db{padding:16px 18px;overflow-y:auto;display:grid;gap:12px}
+.df{padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap}
+.f{display:grid;gap:4px}
+.f>span{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:520px){.g2{grid-template-columns:1fr}}
+.imgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+.im{border:1px solid var(--line);border-radius:4px;background:var(--plate);overflow:hidden;display:grid}
+.im img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.im .ctl{display:flex;justify-content:space-between;background:var(--surface)}
+.im .ctl button{flex:1;border:0;background:none;padding:6px 0;cursor:pointer;font-size:16px}
+.im .ctl button:hover{background:var(--plate)}
+.im .cover{font:11px var(--mono);text-align:center;background:var(--accent);color:var(--accent-ink);padding:2px}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 14px;border-radius:4px;z-index:60;max-width:92vw}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <h1>Painel Catunda</h1>
+  <div><a class="btn" href="./" target="_blank">Ver o site</a> <button class="btn" id="logout" type="button" hidden>Sair</button></div>
+</div></header>
+
+<main class="wrap">
+  <section class="card" id="login" hidden>
+    <h2>Entrar</h2>
+    <p>Para editar, este painel precisa de uma chave de acesso do GitHub (uma vez só por aparelho; ela fica guardada neste navegador).</p>
+    <ol>
+      <li>Logado no GitHub como <b>roi1713</b>, abra <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
+      <li>Nome: <code>Painel Catunda</code>. Validade: a mais longa que quiser.</li>
+      <li>Em <b>Repository access</b> escolha <b>Only select repositories</b> e marque <code>catalogo-catunda</code>.</li>
+      <li>Em <b>Permissions → Repository permissions</b>, ponha <b>Contents</b> em <b>Read and write</b>.</li>
+      <li>Clique em <b>Generate token</b>, copie o texto que começa com <code>github_pat_</code> e cole abaixo.</li>
+    </ol>
+    <form id="loginForm" class="f">
+      <input id="tok" type="password" autocomplete="off" placeholder="github_pat_..." required>
+      <div><button class="btn primary" type="submit">Entrar</button></div>
+      <p class="err" id="loginErr" hidden></p>
+    </form>
+    <p class="small">A chave só dá acesso a este repositório. Não use este painel em aparelho que não seja seu.</p>
+  </section>
+
+  <section id="app" hidden>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Buscar por código ou título" aria-label="Buscar">
+      <select id="fCat" aria-label="Categoria"><option value="">Todas</option><option value="quadros">Quadros</option><option value="objetos">Objetos</option><option value="livros">Livros</option><option value="moveis">Móveis</option></select>
+      <select id="fSt" aria-label="Situação"><option value="">Todas situações</option><option value="available">Disponíveis</option><option value="sold">Vendidos</option><option value="hidden">Escondidos</option></select>
+      <button class="btn primary" id="add" type="button">+ Nova peça</button>
+    </div>
+    <p class="small" id="count"></p>
+    <div id="list"></div>
+  </section>
+  <p id="loading" class="small" hidden>Carregando catálogo…</p>
+</main>
+
+<div class="bar" id="bar" hidden><div class="wrap">
+  <div class="msg small" id="barMsg"></div>
+  <div><button class="btn" id="discard" type="button">Descartar</button> <button class="btn primary" id="publish" type="button">Publicar alterações</button></div>
+</div></div>
+
+<dialog id="dlg">
+  <form id="form">
+    <div class="dh"><h2 id="dTitle"></h2><button class="btn" id="dX" type="button" aria-label="Fechar">×</button></div>
+    <div class="db">
+      <div class="g2">
+        <label class="f"><span>Código</span><input id="fSku" readonly></label>
+        <label class="f"><span>Situação</span><select id="fStatus"><option value="available">Disponível</option><option value="sold">Vendido</option><option value="hidden">Escondido (não aparece)</option></select></label>
+      </div>
+      <div class="g2">
+        <label class="f"><span>Categoria</span><select id="fCategory"><option value="quadros">Quadros</option><option value="objetos">Objetos</option><option value="livros">Livros</option><option value="moveis">Móveis</option></select></label>
+        <label class="f"><span>Tipo (filtro)</span><select id="fSub"></select></label>
+      </div>
+      <label class="f"><span>Título</span><input id="fTitle" required></label>
+      <label class="f"><span>Autor / atribuição</span><input id="fArtist"></label>
+      <div class="g2">
+        <label class="f"><span>Técnica / edição</span><input id="fTech"></label>
+        <label class="f"><span>Medidas</span><input id="fDims" placeholder="35 × 27 cm"></label>
+      </div>
+      <label class="f"><span>Estado</span><input id="fCond"></label>
+      <label class="f"><span>Descrição</span><textarea id="fDesc"></textarea></label>
+      <div class="g2">
+        <label class="f"><span>Preço de venda (R$) — vazio = a combinar</span><input id="fPrice" type="number" min="0" step="any" inputmode="decimal"></label>
+        <label class="f"><span>Preço no Mercado Livre (R$, opcional)</span><input id="fMl" type="number" min="0" step="any" inputmode="decimal"></label>
+      </div>
+      <label class="f"><span>Texto no lugar do preço do ML (opcional)</span><input id="fNote" placeholder="8 pequenas R$ 120 · 8 grandes R$ 180"></label>
+      <label class="f"><span>Links (um por linha: texto | endereço)</span><textarea id="fLinks" style="min-height:56px" placeholder="Ver no Mercado Livre | https://..."></textarea></label>
+      <div class="f"><span>Fotos (a primeira é a capa)</span>
+        <div class="imgs" id="imgs"></div>
+        <div><label class="btn" style="margin-top:6px">+ Adicionar fotos<input id="fFiles" type="file" accept="image/*" multiple hidden></label> <span class="small" id="imgMsg"></span></div>
+      </div>
+    </div>
+    <div class="df">
+      <button class="btn danger" id="del" type="button">Excluir peça</button>
+      <span><button class="btn" id="cancel" type="button">Cancelar</button> <button class="btn primary" type="submit">Salvar (ainda não publica)</button></span>
+    </div>
+  </form>
+</dialog>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(()=>{
+const R={owner:'roi1713',repo:'catalogo-catunda',branch:'main'};
+try{Object.assign(R,JSON.parse(localStorage.getItem('catunda_repo')||'{}'))}catch(e){}
+const API=`/repos/${R.owner}/${R.repo}`;
+const PREFIX={quadros:'QDR',objetos:'OBJ',livros:'LIV',moveis:'MOV'};
+const SUBS={quadros:['Pinturas','Gravuras e papel','Relevos e entalhes','Reproduções'],objetos:['Madeira','Cristais','Porcelanas','Estanho','Metais prateados','Câmeras e ópticos','Diversos'],livros:['Livros'],moveis:['Móveis']};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const toast=m=>{const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,3500)};
+const KEY='catunda_gh';
+let token=null; try{token=localStorage.getItem(KEY)}catch(e){}
+
+let items=[], orig=new Map(), origNames=new Set(), updated='', baseSha=null, existing=new Set();
+const newImgs=new Map(); // nome -> {full:Blob, url}
+let busy=false;
+
+// ---------- API ----------
+async function gh(path,opt={}){
+  const r=await fetch('https://api.github.com'+path,{...opt,cache:'no-store',headers:{Authorization:'Bearer '+token,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28',...(opt.body?{'Content-Type':'application/json'}:{})}});
+  if(!r.ok){let m='';try{m=(await r.json()).message}catch(e){} const e=new Error(`GitHub ${r.status}: ${m||r.statusText}`);e.status=r.status;throw e}
+  return r.status===204?null:r.json();
+}
+const post=(p,b)=>gh(API+p,{method:'POST',body:JSON.stringify(b)});
+const b64=blob=>new Promise((ok,no)=>{const f=new FileReader();f.onload=()=>ok(f.result.split(',')[1]);f.onerror=no;f.readAsDataURL(blob)});
+const utf8=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\s/g,'')),c=>c.charCodeAt(0)));
+
+async function snapshot(){
+  const ref=await gh(`${API}/git/ref/heads/${R.branch}`);
+  const commit=await gh(`${API}/git/commits/${ref.object.sha}`);
+  const tree=await gh(`${API}/git/trees/${commit.tree.sha}?recursive=1`);
+  return {head:ref.object.sha,tree,entry:tree.tree.find(t=>t.path==='items.json')};
+}
+async function load(){
+  $('#loading').hidden=false;$('#app').hidden=true;$('#login').hidden=true;
+  try{
+    const s=await snapshot();
+    const blob=await gh(`${API}/git/blobs/${s.entry.sha}`);
+    const d=JSON.parse(utf8(blob.content));
+    items=d.items;updated=d.updated;baseSha=s.entry.sha;
+    existing=new Set(s.tree.tree.filter(t=>t.type==='blob').map(t=>t.path));
+    orig=new Map(items.map(i=>[i.sku,JSON.stringify(i)]));
+    origNames=new Set(items.flatMap(i=>i.images));
+    $('#loading').hidden=true;$('#app').hidden=false;$('#logout').hidden=false;
+    render();
+  }catch(e){
+    $('#loading').hidden=true;
+    if(e.status===401||e.status===403||e.status===404){showLogin('A chave não funcionou ('+e.message+'). Gere outra ou confira as permissões.')}
+    else{toast('Erro ao carregar: '+e.message)}
+  }
+}
+function showLogin(err){
+  $('#login').hidden=false;$('#app').hidden=true;$('#bar').hidden=true;$('#logout').hidden=true;
+  $('#loginErr').hidden=!err;$('#loginErr').textContent=err||'';
+}
+
+// ---------- Mudanças ----------
+function diff(){
+  const cur=new Map(items.map(i=>[i.sku,JSON.stringify(i)]));
+  const added=[...cur.keys()].filter(k=>!orig.has(k));
+  const removed=[...orig.keys()].filter(k=>!cur.has(k));
+  const changed=[...cur.keys()].filter(k=>orig.has(k)&&orig.get(k)!==cur.get(k));
+  return {added,removed,changed,n:added.length+removed.length+changed.length};
+}
+function updateBar(){
+  const d=diff();
+  $('#bar').hidden=!d.n;
+  const p=[];if(d.changed.length)p.push(d.changed.length+' editada(s)');if(d.added.length)p.push(d.added.length+' nova(s)');if(d.removed.length)p.push(d.removed.length+' excluída(s)');
+  $('#barMsg').textContent=p.join(' · ')+' — ainda não publicado';
+  document.querySelectorAll('.row').forEach(r=>r.classList.toggle('changed',d.changed.includes(r.dataset.sku)||d.added.includes(r.dataset.sku)));
+  return d;
+}
+window.addEventListener('beforeunload',e=>{if(!busy&&token&&diff().n){e.preventDefault();e.returnValue=''}});
+
+// ---------- Lista ----------
+const norm=s=>(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const src=(name,kind)=>newImgs.has(name)?newImgs.get(name).url:`img/${kind}/${name}.jpg`;
+function thumb(it){const n=it.images[0];if(!n)return '';return newImgs.has(n)?newImgs.get(n).url:(existing.has(`img/t/${n}.jpg`)?`img/t/${n}.jpg`:`img/g/${n}.jpg`)}
+function render(){
+  const q=norm($('#q').value),c=$('#fCat').value,s=$('#fSt').value;
+  const v=items.filter(i=>(!c||i.cat===c)&&(!s||i.status===s)&&(!q||norm(i.sku+' '+i.title).includes(q)));
+  $('#count').textContent=v.length+' de '+items.length+' peças';
+  $('#list').innerHTML=v.map(i=>`<div class="row" data-sku="${esc(i.sku)}">
+    <img class="th" alt="" loading="lazy" src="${esc(thumb(i))}">
+    <div class="st-${i.status}"><div class="code">${esc(i.sku)} · ${esc(i.sub)}</div><div class="t">${esc(i.title)}</div></div>
+    <label class="pricebox"><span>R$</span><input type="number" min="0" step="any" inputmode="decimal" data-f="price" placeholder="a combinar" value="${i.price??''}" aria-label="Preço de ${esc(i.sku)}"></label>
+    <select data-f="status" aria-label="Situação de ${esc(i.sku)}"><option value="available"${i.status==='available'?' selected':''}>Disponível</option><option value="sold"${i.status==='sold'?' selected':''}>Vendido</option><option value="hidden"${i.status==='hidden'?' selected':''}>Escondido</option></select>
+    <button class="btn" type="button" data-edit>Editar</button></div>`).join('')||'<p class="small">Nada encontrado.</p>';
+  updateBar();
+}
+$('#list').addEventListener('change',e=>{
+  const row=e.target.closest('.row');if(!row)return;
+  const it=items.find(i=>i.sku===row.dataset.sku),f=e.target.dataset.f;if(!it||!f)return;
+  if(f==='price'){const v=e.target.value.trim();it.price=v===''?null:Number(v)}
+  else it.status=e.target.value;
+  updateBar();
+});
+$('#list').addEventListener('click',e=>{const b=e.target.closest('[data-edit]');if(b)openEdit(b.closest('.row').dataset.sku)});
+['#q','#fCat','#fSt'].forEach(s=>$(s).addEventListener('input',render));
+
+// ---------- Ficha ----------
+let ed=null; // {isNew, it, imgs:[{name?,full?,url}]}
+const subOptions=(cat,val)=>{const l=[...SUBS[cat]];if(val&&!l.includes(val))l.unshift(val);$('#fSub').innerHTML=l.map(s=>`<option${s===val?' selected':''}>${esc(s)}</option>`).join('')};
+function nextSku(cat){
+  const p=PREFIX[cat];let max=0;
+  for(const i of items){const m=i.sku.match(/^([A-Z]+)-(\d+)$/);if(m&&m[1]===p)max=Math.max(max,+m[2])}
+  return p+'-'+String(max+1).padStart(3,'0');
+}
+function openEdit(sku){
+  const isNew=!sku;
+  const it=isNew?{sku:'',cat:'quadros',sub:'Pinturas',title:'',price:null,status:'available',images:[]}:items.find(i=>i.sku===sku);
+  ed={isNew,it,imgs:it.images.map(n=>({name:n,url:src(n,'g')}))};
+  $('#dTitle').textContent=isNew?'Nova peça':'Editar '+it.sku;
+  $('#fCategory').value=it.cat;$('#fCategory').disabled=!isNew;
+  subOptions(it.cat,it.sub);
+  $('#fSku').value=isNew?nextSku(it.cat):it.sku;
+  $('#fStatus').value=it.status;
+  $('#fTitle').value=it.title||'';$('#fArtist').value=it.artist||'';$('#fTech').value=it.technique||'';
+  $('#fDims').value=it.dims||'';$('#fCond').value=it.condition||'';$('#fDesc').value=it.desc||'';
+  $('#fPrice').value=it.price??'';$('#fMl').value=it.mlPrice??'';$('#fNote').value=it.priceNote||'';
+  $('#fLinks').value=(it.links||[]).map(l=>l.label+' | '+l.url).join('\n');
+  $('#del').hidden=isNew;$('#imgMsg').textContent='';
+  drawImgs();
+  $('#dlg').showModal();
+}
+$('#fCategory').onchange=e=>{subOptions(e.target.value);$('#fSku').value=nextSku(e.target.value)};
+function drawImgs(){
+  $('#imgs').innerHTML=ed.imgs.map((m,i)=>`<div class="im">${i===0?'<div class="cover">CAPA</div>':''}<img src="${esc(m.url)}" alt=""><div class="ctl"><button type="button" data-mv="-1" data-i="${i}" aria-label="Mover para trás"${i===0?' disabled':''}>←</button><button type="button" data-rm data-i="${i}" aria-label="Remover foto">✕</button><button type="button" data-mv="1" data-i="${i}" aria-label="Mover para frente"${i===ed.imgs.length-1?' disabled':''}>→</button></div></div>`).join('')||'<span class="small">Sem fotos.</span>';
+}
+$('#imgs').addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;const i=+b.dataset.i;
+  if('rm' in b.dataset)ed.imgs.splice(i,1);
+  else{const j=i+ +b.dataset.mv;[ed.imgs[i],ed.imgs[j]]=[ed.imgs[j],ed.imgs[i]]}
+  drawImgs();
+});
+async function shrink(blob,max){
+  const bmp=await createImageBitmap(blob,{imageOrientation:'from-image'});
+  const k=Math.min(1,max/Math.max(bmp.width,bmp.height));
+  const c=document.createElement('canvas');c.width=Math.round(bmp.width*k);c.height=Math.round(bmp.height*k);
+  const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(bmp,0,0,c.width,c.height);
+  return new Promise(ok=>c.toBlob(ok,'image/jpeg',.74));
+}
+$('#fFiles').onchange=async e=>{
+  const files=[...e.target.files];e.target.value='';let bad=0;
+  for(const f of files){
+    $('#imgMsg').textContent='Preparando '+f.name+'…';
+    try{const full=await shrink(f,1300);ed.imgs.push({full,url:URL.createObjectURL(full)});drawImgs()}catch(err){bad++}
+  }
+  $('#imgMsg').textContent=bad?`${bad} foto(s) não puderam ser lidas (HEIC? tire print ou converta para JPG).`:'';
+};
+$('#dX').onclick=$('#cancel').onclick=()=>$('#dlg').close();
+$('#del').onclick=()=>{
+  if(!confirm(`Excluir ${ed.it.sku} do catálogo? As fotos também serão apagadas quando publicar. (Para só tirar do ar, use "Escondido" ou "Vendido".)`))return;
+  items=items.filter(i=>i!==ed.it);$('#dlg').close();render();
+};
+const val=id=>$(id).value.trim();
+$('#form').onsubmit=e=>{
+  e.preventDefault();
+  const o=ed.isNew?{}:ed.it;
+  const sku=val('#fSku');
+  if(ed.isNew&&items.some(i=>i.sku===sku)){toast('Código '+sku+' já existe.');return}
+  // nomes das fotos novas
+  const used=new Set([...existing,...newImgs.keys()].map(p=>p.replace(/^img\/[gt]\//,'').replace(/\.jpg$/,'')));
+  let n=0;
+  for(const m of ed.imgs){
+    if(m.name)continue;
+    do n++;while(used.has(`${sku}-${n}`)||ed.imgs.some(x=>x.name===`${sku}-${n}`));
+    m.name=`${sku}-${n}`;newImgs.set(m.name,{full:m.full,url:m.url});
+  }
+  const set=(k,v)=>{if(v===''||v==null)delete o[k];else o[k]=v};
+  o.sku=sku;o.cat=ed.isNew?$('#fCategory').value:o.cat;o.sub=$('#fSub').value;
+  o.title=val('#fTitle');set('artist',val('#fArtist'));set('technique',val('#fTech'));set('condition',val('#fCond'));set('dims',val('#fDims'));
+  o.price=val('#fPrice')===''?null:Number(val('#fPrice'));set('priceNote',val('#fNote'));
+  set('mlPrice',val('#fMl')===''?null:Number(val('#fMl')));
+  o.status=$('#fStatus').value;set('desc',val('#fDesc'));
+  o.images=ed.imgs.map(m=>m.name);
+  const links=$('#fLinks').value.split('\n').map(l=>l.trim()).filter(Boolean).map(l=>{const [a,...b]=l.split('|');return b.length?{label:a.trim(),url:b.join('|').trim()}:{label:'Link',url:a.trim()}}).filter(l=>/^https?:\/\//.test(l.url));
+  if(links.length)o.links=links;else delete o.links;
+  if(ed.isNew){
+    let at=-1;items.forEach((i,k)=>{if(i.cat===o.cat)at=k});
+    items.splice(at+1||items.length,0,o);
+  }
+  $('#dlg').close();render();
+};
+$('#add').onclick=()=>openEdit(null);
+
+// ---------- Publicar ----------
+const today=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
+async function blobFor(name){ // JPG grande de uma foto
+  if(newImgs.has(name))return newImgs.get(name).full;
+  const r=await fetch(`img/g/${name}.jpg`,{cache:'no-store'});if(!r.ok)throw new Error('Não achei a foto '+name);return r.blob();
+}
+async function publish(){
+  if(busy)return;const d=diff();if(!d.n)return;
+  busy=true;$('#publish').disabled=$('#discard').disabled=true;
+  const step=m=>{$('#barMsg').textContent=m};
+  try{
+    step('Conferindo o repositório…');
+    const s=await snapshot();
+    if(!s.entry||s.entry.sha!==baseSha)throw new Error('O catálogo mudou em outro lugar desde que você abriu o painel. Descarte e recarregue para não perder nada de lá.');
+    const have=new Set(s.tree.tree.filter(t=>t.type==='blob').map(t=>t.path));
+    const entries=[];
+    const addBlob=async(path,blob)=>{const b=await post('/git/blobs',{content:await b64(blob),encoding:'base64'});entries.push({path,mode:'100644',type:'blob',sha:b.sha})};
+    const refd=new Set(items.flatMap(i=>i.images)),firsts=new Set(items.map(i=>i.images[0]).filter(Boolean));
+    const upl=[];
+    for(const n of refd)if(!have.has(`img/g/${n}.jpg`))upl.push(['g',n]);
+    for(const n of firsts)if(!have.has(`img/t/${n}.jpg`))upl.push(['t',n]);
+    let k=0;
+    for(const [kind,n] of upl){
+      step(`Enviando fotos (${++k}/${upl.length})…`);
+      const full=await blobFor(n);
+      await addBlob(`img/${kind}/${n}.jpg`,kind==='g'?full:await shrink(full,560));
+    }
+    // fotos que não são mais usadas
+    const cand=new Set([...origNames,...newImgs.keys()]);
+    for(const p of have){
+      let m=p.match(/^img\/g\/(.+)\.jpg$/);
+      if(m&&cand.has(m[1])&&!refd.has(m[1])){entries.push({path:p,mode:'100644',type:'blob',sha:null});continue}
+      m=p.match(/^img\/t\/(.+)\.jpg$/);
+      if(m&&cand.has(m[1])&&!firsts.has(m[1]))entries.push({path:p,mode:'100644',type:'blob',sha:null});
+    }
+    step('Gravando o catálogo…');
+    const json=JSON.stringify({updated:today(),items},null,1);
+    const jb=await post('/git/blobs',{content:json,encoding:'utf-8'});
+    entries.push({path:'items.json',mode:'100644',type:'blob',sha:jb.sha});
+    const tree=await post('/git/trees',{base_tree:s.tree.sha,tree:entries});
+    const parts=[];
+    if(d.added.length)parts.push('novas: '+d.added.join(', '));
+    if(d.changed.length)parts.push('editadas: '+d.changed.join(', '));
+    if(d.removed.length)parts.push('excluídas: '+d.removed.join(', '));
+    const commit=await post('/git/commits',{message:'Painel: '+parts.join(' · '),tree:tree.sha,parents:[s.head]});
+    await gh(`${API}/git/refs/heads/${R.branch}`,{method:'PATCH',body:JSON.stringify({sha:commit.sha})});
+    // atualiza o estado local sem recarregar (as fotos novas continuam visíveis pelas miniaturas locais)
+    baseSha=jb.sha;updated=today();
+    for(const e of entries){if(e.sha)have.add(e.path);else have.delete(e.path)}
+    existing=have;
+    orig=new Map(items.map(i=>[i.sku,JSON.stringify(i)]));
+    origNames=new Set(items.flatMap(i=>i.images));
+    busy=false;render();
+    toast('Publicado! O site atualiza em cerca de 1 minuto.');
+  }catch(e){
+    busy=false;updateBar();alert('Não consegui publicar:\n'+e.message);
+  }finally{busy=false;$('#publish').disabled=$('#discard').disabled=false}
+}
+$('#publish').onclick=publish;
+$('#discard').onclick=()=>{if(confirm('Descartar todas as alterações não publicadas?'))load()};
+
+// ---------- Login ----------
+$('#loginForm').onsubmit=e=>{
+  e.preventDefault();token=$('#tok').value.trim();$('#tok').value='';
+  try{localStorage.setItem(KEY,token)}catch(err){}
+  load();
+};
+$('#logout').onclick=()=>{
+  if(diff().n&&!confirm('Há alterações não publicadas. Sair mesmo assim?'))return;
+  try{localStorage.removeItem(KEY)}catch(e){} token=null;items=[];showLogin();
+};
+if(token)load();else showLogin();
+})();
+</script>
+</body>
+</html>

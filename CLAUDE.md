@@ -52,8 +52,15 @@ OBJ-013 (flûtes): confirmar quantidade.
 
 ## Publicação
 
-Site público em GitHub Pages (repositório `catalogo-catunda`, branch `main`, raiz).
+Site público em GitHub Pages (repositório `roi1713/catalogo-catunda`, branch `main`, raiz). O gh do agente está logado como `diboatabacaria-ctrl` com acesso de escrita (sem admin).
 Fluxo de atualização: editar items.json / imagens → commit → push. O Pages publica sozinho em ~1 min.
 O Rodrigo não usa terminal: o agente roda git/gh por ele.
 
 Existe também uma prévia como Artifact no claude.ai (Catálogo Catunda), privada.
+
+## Painel de edição (admin.html)
+
+`admin.html` (mesma pasta, `noindex`) permite ao Rodrigo editar preços/situação, trocar fotos, adicionar e excluir peças sem usar o agente.
+Ele fala direto com a API do GitHub (Git Data API) usando um token fine-grained do dono, com permissão Contents: read/write só neste repo, guardado no localStorage do navegador dele. Nada de token no repositório.
+Ao publicar faz um único commit: regrava `items.json` (indentação 1, sem quebra final, igual ao arquivo atual), envia `img/g` e `img/t` novos (redimensiona no navegador: 1300 px / 560 px, q74) e apaga fotos órfãs. Se o `items.json` mudou no repo desde que o painel abriu (ex.: commit do agente), ele recusa publicar e pede para recarregar.
+Ao editar `items.json` pelo agente, manter esse formato (`JSON.stringify(d,null,1)`) para não gerar ruído.
